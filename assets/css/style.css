@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nerko+One&display=swap');
+
+
+
+
+/* ---------------------- header */
+
+header {
+    margin: 0;
+
+}
+.logo {
+    background: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- footer */
+
+footer {
+    margin: 0;
+    background-color: darkgrey;
+    color:beige;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 70%;
+   }
+.social-links {
+    font-size: 1.5em;  
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5em;
+   }
+.social-links li a i {
+    color: beige;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+   }
+.social-links li {
+    display: inline;
+    padding: 1em;
+}
+.social-links li a i:hover {
+    color:dimgrey;
+}

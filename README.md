@@ -1,45 +1,116 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Girl On Earth.
 
-Welcome MelindaZhang2020,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Table of Contents
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## About
 
-A blue button should appear to click: *Make Public*,
+Girl On Earth is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
 
-Another blue button should appear to click: *Open Browser*.
+## Users Experience (UX)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Users stories
 
-## Updates Since The Instructional Video
+As a high value woman, I want to live my life the maximum by surrounding myself with inspiring metaphors shared by like-minded individuals, so that I can live my life to the maximum aligned with my passions and desire.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### The Five Planes of UX
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* ##### Strategy Plane
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  **The aim** is to attract the like-minded women join the group with their own insparations to add value to the group, so the group can grow and inspire more and more women to create a more sustainable lifestyle for themselves, so that the world will become a better place.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  **The target audience** is female individuals that have a strong mindset, knowing what they want to achieve in life and aiming to live their life to the maxmium.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* ##### Scope Plane
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* ##### Structure Plane
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* ##### Skeleton Plane
 
---------
+* ##### Surface Plane
 
-Happy coding!
+  
+
+
+
+
+
+
+
+## Features
+
+#### Existing Features
+
+#### Features Left to Implement
+
+## Design
+
+#### Colours
+
+#### Typograhpy
+
+#### Imagery
+
+#### Mockups
+
+
+
+## Technologies Used
+
+#### Languages Used
+
+#### Frameworks, Libraries and Programs Used
+
+
+
+## Debugging
+
+## Testing
+
+#### Functiionality Testing
+
+#### CSS3 validator
+
+#### HTML5 validator
+
+#### Usability Testing
+
+#### Compatibility Testing
+
+#### Performance Testing
+
+##### Tested on Developer Tools Lighthouse
+
+##### A Lighthouse report in Chrome DevTools
+
+
+
+
+
+
+
+
+
+## Deployment
+
+## Credits
+
+#### Content
+
+#### Media
+
+#### Acknowledgements
+
+
+
+
+
+
+
