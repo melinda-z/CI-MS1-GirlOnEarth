@@ -6,60 +6,103 @@
 
 header {
     margin: 0;
-
 }
 body {
     background: #f0e8ed;
+    margin: 0;
 }
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
-    color: #5D21D1;
 }
-.nav-custom {
-    color: #5D21D1;
-}
-.bg-custom {
-    background-color: rgb(114, 104, 112, 0.2);
+.navbar {
+    margin: 0;
 }
 
 img {
-    height: 100px;
-    width: 100px;
+    height: 10em;
+    width: 15em;
     border-radius: 50%;
-    margin-top: 15px;
+    margin-top: 1em;
+    
 }
 #navbarSupportedContent li {
     font-family: 'Architects Daughter', cursive;
     font-size: 2rem;
     margin-top: 50px;
 }
-.nav-item a {
-    color: rgb(83, 36, 71);
+
+
+
+
+
+/* -------------------form */
+
+.form-section {
+    background-image: url(../images/bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
 }
-.nav-item a:hover {
-    color: rgb(197, 48, 48);
+.contact-form {
+    font-family: 'Architects Daughter', cursive;
+    color:honeydew;
+    background-color: rgba(22, 19, 19, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    left: 17%;
+    top: 30%;
+    min-width: 65vw;
+    min-height: 42vh;
+    line-height: 200%;
 }
-.navbar-toggler {
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+} 
+
+h2 {
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+}
+label {
+    font-size: 1.3rem;
+    margin-left: 3em;
+    margin-bottom: 0;
+}
+
+.text-input {
+    background-color: transparent;
+    border: 1.5px solid honeydew;
+    margin-left: 3em;
+    width: 80%;
+    border-radius: 8px;
+    height: 3em;
+    margin-top: 0;
    
-    background-color: rgb(92, 47, 88, 0.5);
-    
 }
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
+#message {
+    height: 8em;
+    width: 90%;
+}
+#email {
+    width: 90%;
+}
+#form-btn {
+    position: absolute;    
+    left: 45%;
+    top: 110%;
+}
 
 /* --------------------- footer */
 
@@ -92,4 +135,5 @@ footer {
 }
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
+
 }
