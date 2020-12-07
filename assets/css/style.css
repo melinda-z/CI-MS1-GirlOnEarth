@@ -7,14 +7,17 @@
 header {
     margin: 0;
 }
+
 body {
     background: #f0e8ed;
     margin: 0;
 }
+
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
 }
+
 .navbar {
     margin: 0;
 }
@@ -58,14 +61,15 @@ img {
     min-height: 42vh;
     line-height: 200%;
 }
+
 hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 2px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
 } 
 
 h2 {
@@ -75,6 +79,7 @@ h2 {
     letter-spacing: 2px;
     font-weight: 1000;
 }
+
 label {
     font-size: 1.3rem;
     margin-left: 3em;
@@ -88,9 +93,9 @@ label {
     width: 80%;
     border-radius: 8px;
     height: 3em;
-    margin-top: 0;
-   
+    margin-top: 0; 
 }
+
 #message {
     height: 8em;
     width: 90%;
@@ -135,5 +140,21 @@ footer {
 }
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
+
+}
+
+
+@media (max-width:375px) {
+
+    img[src$='assets/images/girl.jpg'] {
+    visibility: hidden;    
+    }
+
+    .contact-form {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+
+    }
 
 }
