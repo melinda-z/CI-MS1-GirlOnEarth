@@ -16,23 +16,43 @@ body {
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
+    position: relative;
+    bottom: 8px;
 }
 
 .navbar {
     margin: 0;
 }
 
-img {
+
+#nav-img {
     height: 10em;
     width: 15em;
     border-radius: 50%;
     margin-top: 1em;
-    
 }
 #navbarSupportedContent li {
     font-family: 'Architects Daughter', cursive;
     font-size: 2rem;
     margin-top: 50px;
+}
+/*-------------------- passions */
+
+.self-development-img img {
+    display: block;
+    margin-top: 8%;
+    position: relative;
+}
+.float-card {
+    
+    background-color: RGBA(210,215,223,0.7);
+    width: 45%;
+    height: 30%;
+    
+}
+.quotes {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.5em;
 }
 
 
@@ -54,11 +74,12 @@ img {
     color:honeydew;
     background-color: rgba(22, 19, 19, 0.4);
     border-radius: 10px;
-    position: absolute;
-    left: 17%;
-    top: 30%;
-    min-width: 65vw;
-    min-height: 42vh;
+    margin: 0;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
     line-height: 200%;
 }
 
@@ -81,19 +102,20 @@ h2 {
 }
 
 label {
+    margin-left: 2.5em;
     font-size: 1.3rem;
-    margin-left: 3em;
     margin-bottom: 0;
 }
 
 .text-input {
+    margin-left: 2.5em;
     background-color: transparent;
     border: 1.5px solid honeydew;
-    margin-left: 3em;
     width: 80%;
     border-radius: 8px;
     height: 3em;
     margin-top: 0; 
+
 }
 
 #message {
@@ -118,15 +140,13 @@ footer {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 0;
-    min-height: 120px;
    }
 .social-links {
     font-size: 1.5em;  
     text-align: center;
     list-style: none;
-    padding: 0;
     margin-top: 0.5em;
-   }
+}
 .social-links li a i {
     color: beige;
     transition: all 0.35s ease-in-out;
@@ -137,6 +157,7 @@ footer {
 .social-links li {
     display: inline;
     padding: 1em;
+
 }
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
@@ -144,17 +165,13 @@ footer {
 }
 
 
-@media (max-width:375px) {
+@media only screen and (max-width:375px) {
 
-    img[src$='assets/images/girl.jpg'] {
-    visibility: hidden;    
+    #nav-img {
+      display: none;
     }
+    
 
-    .contact-form {
-    position: absolute;
-    left: 10%;
-    top: 30%;
+    
 
-    }
-
-}
+} 
