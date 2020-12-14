@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/5c1e0acb7f.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/5c1e0acb7f.js" crossorigin="anonymous"></script>
     <title>GirlOnEarth.</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
           <a class="navbar-brand" href="#"><img id="nav-img" src="assets/images/cover.png" alt="logo-girlonearth"/></a>
         <button
           class="navbar-toggler ml-auto"
@@ -51,33 +41,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Passions
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Self-development</a>
-                <a class="dropdown-item" href="#">Health and Well-being</a>
-                <a class="dropdown-item" href="#">Beauty and Fashion</a>
-                <a class="dropdown-item" href="#"
-                  >Relatiionship and Parenting</a
-                >
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Passions</a>   
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
                 href="#"
-                data-toggle="modal"
-                data-target="#contactmodal"
                 >Contact</a
               >
             </li>
@@ -90,129 +60,123 @@
             <img src="assets/images/self-development.jpg" alt="girl-working">
             <div class="card">
                 <h3>Self-development</h3>
-                <p>Self-development - the never ending chance to improve not only yourself, but also to attract opportunities and affect others.</p>
+                <p class="quotes">Self-development - the never ending chance to improve not only yourself, but also to
+                    attract opportunities and affect others.</p>
             </div>
         </div>
         <div class="box" id="health-wellbeing">
             <img src="assets/images/health-wellbeing.jpg" alt="girl-yoga">
             <div class="card">
                 <h3>Health and Wellness</h3>
-                <p>Health is a state of body. Wellness is a state of being!</p>
+                <p class="quotes">Health is a state of body. Wellness is a state of being!</p>
             </div>
         </div>
         <div class="box" id="beauty">
             <img src="assets/images/beauty.jpg" alt="beautiful-girl">
             <div class="card">
                 <h3>Beauty</h3>
-                <p>Beauty begins the moment you decide to be yourself, that or a kick-ass red lipstick!</p>
+                <p class="quotes">Beauty begins the moment you decide to be yourself, that or a kick-ass red lipstick!
+                </p>
             </div>
         </div>
         <div class="box" id="fashion">
             <img src="assets/images/fashion.jpg" alt="girl-model">
             <div class="card">
                 <h3>Fashion</h3>
-                <p>Fashion is what you buy. Style is what you do with it!</p>
+                <p class="quotes">Fashion is what you buy. Style is what you do with it!</p>
             </div>
         </div>
         <div class="box" id="relationship">
             <img src="assets/images/relationship.jpg" alt="couple">
             <div class="card">
                 <h3>Relationship</h3>
-                <p>Relationship is a two-way street constantly under construction.</p>
+                <p class="quotes">Relationship is a two-way street constantly under construction.</p>
             </div>
         </div>
         <div class="box" id="parenting">
             <img src="assets/images/parenting.jpg" alt="mother-child">
             <div class="card">
                 <h3>Parenting</h3>
-                <p>Parenting happens when you start controlling yourself and stop controlling your child.</p>
+                <p class="quotes">Parenting happens when you start controlling yourself and stop controlling your child.
+                </p>
             </div>
-        </div>   
+        </div>
     </section>
     <section class="form-section">
-      <form class="contact-form" method="post" action="#">
-        <h2>Let's Grow Together!</h2>
-        <hr />
-        <div class="row">
-          <div class="col-6">
-            <label for="fname">First Name</label><br />
-            <input class="text-input" type="text" id="fname" required /><br />
-          </div>
-          <div class="col-6">
-            <label for="lname">Last Name</label><br />
-            <input class="text-input" type="text" id="lname" required /><br />
-          </div>
-          <div class="col-12">
-            <label for="email">Email</label><br />
-            <input class="text-input" type="email" id="email" required /><br />
-            <label for="message">Message (Optional)</label><br />
-            <input class="text-input" type="text" id="message" /><br />
-            <button
-              id="form-btn"
-              type="button"
-              class="btn btn-secondary btn-lg"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </form>
+        <form class="contact-form" method="post" action="#">
+            <h2>Let's Grow Together!</h2>
+            <hr />
+            <div class="row">
+                <div class="col-6">
+                    <label for="fname">First Name</label><br />
+                    <input class="text-input" type="text" id="fname" required /><br />
+                </div>
+                <div class="col-6">
+                    <label for="lname">Last Name</label><br />
+                    <input class="text-input" type="text" id="lname" required /><br />
+                </div>
+                <div class="col-12">
+                    <label for="email">Email</label><br />
+                    <input class="text-input" type="email" id="email" required /><br />
+                    <label for="message">Message (Optional)</label><br />
+                    <input class="text-input" type="text" id="message" /><br />
+                    <button id="form-btn" type="button" class="btn btn-secondary btn-lg">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
     </section>
     <footer class="container-fluid ">
-      <div class="row footer-content align-items-center">
-        <div class="col-sm-4" id="contact">Contact Us</div>
-        <div class="social-icons col-sm-4 ">
-          <ul class="social-links ">
-            <li>
-              <a target="blank" href="#">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </li>
-            <li>
-              <a target="blank" href="#">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">twitter</span>
-              </a>
-            </li>
-            <li>
-              <a target="blank" href="#">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">instagram</span>
-              </a>
-            </li>
-            <li>
-              <a target="blank" href="#">
-                <i class="fab fa-pinterest" aria-hidden="true"></i>
-                <span class="sr-only">pinterest</span>
-              </a>
-            </li>
-          </ul>
+        <div class="row footer-content align-items-center">
+            <div class="col-sm-4" id="contact">Contact Us</div>
+            <div class="social-icons col-sm-4 ">
+                <ul class="social-links ">
+                    <li>
+                        <a target="blank" href="#">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="blank" href="#">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="blank" href="#">
+                            <i class="fab fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">pinterest</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 copyright">
+                <p>
+                    <i class="far fa-copyright"></i> 2020 coded with
+                    <i class="fas fa-heart"></i> by Melinda Zhang.
+                </p>
+            </div>
         </div>
-        <div class="col-sm-4 copyright">
-          <p>
-            <i class="far fa-copyright"></i> 2020 coded with
-            <i class="fas fa-heart"></i> by Melinda Zhang.
-          </p>
-        </div>
-      </div>
     </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
