@@ -1,21 +1,24 @@
 # Girl On Earth.
-
+![logo](assets/images/logo.png)
 ## Table of Contents
 1. [About](#about)
 2. [Users Experience (UX)](#user-experience)
-3. [Users Stories](#users-stories)
-4. [The five planes of UX](#the-five-planes-of-UX)
-5. [Features](#feature)
-6. [Design](#design)
-7. [Technologies Used](#Technologies-used)
+3. [Features](#feature)
+4. [Design](#design)
+5. [Technologies Used](#Technologies-used)
+7. [Testing](#testing)
 8. [Debugging](#debugging)
-9. [Testing](#testing)
+8. [Deployment](#Deployment)
+9. [Credits](#credits)
+
 
 ## About
+---
 
 Girl On Earth is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
 
 ## Users Experience (UX)
+---
 
 #### Users stories
 
@@ -46,32 +49,42 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 * ##### Surface Plane
   Becasue of our audience is female individuals, our color theme will be light and girly, images should be feminine, fonts will also be delicate. Minimise the content is the goal, to create a calming sensation throughout the page.
 
-  
-## Features
-
-#### Existing Features
-
-#### Features Left to Implement
-
 ## Design
-
+---
 #### Colours
+The following color pallate will be the main color theme to be used.
+![pallate 1](assets/images/ms1-color-1.png)
+![pallate 2](assets/images/ms1-color-2.png)
+
+
 
 #### Typograhpy
+Architects Daughter 
 
 #### Imagery
 
 #### Mockups
 
+
+  
+## Features
+---
+
+
+#### Existing Features
+
+
+#### Features Left to Implement
+
 ## Technologies Used
+---
 
 #### Languages Used
 
 #### Frameworks, Libraries and Programs Used
 
-## Debugging
-
 ## Testing
+---
 
 #### Functiionality Testing
 
@@ -89,9 +102,14 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 
 ##### A Lighthouse report in Chrome DevTools
 
+## Debugging
+---
+
 ## Deployment
+---
 
 ## Credits
+---
 
 #### Content
 
