@@ -37,7 +37,7 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 
 * ##### Scope Plane
 
-  **The home page** should include an eye catching feature with an insparational metaphors to draw users attendation immediately. **The passions section** should include a few of the topics around daily life would interest our female audience. It would be ideal if there are acticles could be linked to this section, but for now the page can be just inclule a basic scope, it can be added as the page grows. **The contact page** should include a form so that the user can get in touch with us.
+  **The home page** should include an eye catching feature with an insparational metaphors to draw users attendation immediately. **The passions section** should include a few of the topics around daily life would interest our female audience. It would be ideal if there are acticles could be linked to this section, but for now the page can be just inclule a basic scope, it can be added as the page grows. **The Event** section should be divided into 3 columns, with a round shape image clearly tell the users what is happening on a regular basis. **The contact page** should include a form so that the user can get in touch with us.
 
 * ##### Structure Plane
   
@@ -52,18 +52,25 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 ## Design
 ---
 #### Colours
-The following color pallate will be the main color theme to be used.
+
+
+
 ![pallate 1](assets/images/ms1-color-1.png)
 ![pallate 2](assets/images/ms1-color-2.png)
 
+The above color pallate will be the main color theme throughout the page. 
 
 
 #### Typograhpy
-Architects Daughter 
+"Architects Daughter" font from google font will be the font used for the navbar with "cursive" as a fallback.
 
 #### Imagery
+Througout the project, I am aiming for images that has natural color, easy on the eyes, to create a soothing sensation.
+please see in the credit section for links to images source.
 
 #### Mockups
+[wireframes](assets/wireframes/ms1.pdf)
+
 
 
   
