@@ -13,12 +13,12 @@
 
 
 ## About
----
+
 
 Girl On Earth is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
 
 ## Users Experience (UX)
----
+
 
 #### Users stories
 
@@ -50,7 +50,8 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
   Becasue of our audience is female individuals, our color theme will be light and girly, images should be feminine, fonts will also be delicate. Minimise the content is the goal, to create a calming sensation throughout the page.
 
 ## Design
----
+
+
 #### Colours
 
 
@@ -71,11 +72,7 @@ please see in the credit section for links to images source.
 #### Mockups
 [wireframes](assets/wireframes/ms1.pdf)
 
-
-
-  
 ## Features
----
 
 
 #### Existing Features
@@ -84,14 +81,14 @@ please see in the credit section for links to images source.
 #### Features Left to Implement
 
 ## Technologies Used
----
+
 
 #### Languages Used
 
 #### Frameworks, Libraries and Programs Used
 
 ## Testing
----
+
 
 #### Functiionality Testing
 
@@ -110,13 +107,13 @@ please see in the credit section for links to images source.
 ##### A Lighthouse report in Chrome DevTools
 
 ## Debugging
----
+
 
 ## Deployment
----
+
 
 ## Credits
----
+
 
 #### Content
 

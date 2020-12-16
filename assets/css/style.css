@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Pacifico&family=Syne+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Pacifico&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 /* ---------------------- header */
 
 body {
@@ -28,6 +27,47 @@ body {
     font-size: 2rem;
     margin-top: 50px;
 }
+/*-------------------- about */
+
+.container {
+    background-color: #ffcdb2;
+    display: flex;
+    align-items: center;
+
+}
+
+.container img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    float: left;
+    padding: 3em ;
+}
+.container p {
+    color: #6d6875;
+    font-weight: bold;
+    padding: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2.5em;
+    font-size: 1.5em;
+}
+/*-------------------- divider */
+
+
+.divider {
+    background-color: #b5838d;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider p {
+    color: #6d6875;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+}
+
 
 
 /*-------------------- passions */
@@ -42,7 +82,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 0;
-    padding: 10%;
+    padding: 0 10%;
 }
 .card {
     max-width: 100%;
@@ -171,19 +211,23 @@ footer {
         background-color:rgba(250, 250, 250);
         margin-top: 8vh;
     }
-    /* .nav-link a {
-        font-size: 10px;
-        line-height: 5px;
-    }
-    .nav-item {
-       color: white;
-
-    } */
 }
 @media only screen and (max-width: 320px) {
     .navbar {
         width:100%;
         margin:0;
         padding:0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+    .container img {
+        padding:  10px;
+        float: right;
+    }
+    .container p {
+        padding: 10px;
     }
 }
