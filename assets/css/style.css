@@ -1,6 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Pacifico&family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 /* ---------------------- header */
 
 body {
@@ -27,6 +27,23 @@ body {
     font-size: 2rem;
     margin-top: 50px;
 }
+/*-------------------- cover */
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+.cover p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7em;
+    text-transform: capitalize;
+    color: #a5a58d;
+    text-align: center;
+}
+
 /*-------------------- about */
 
 .container {
@@ -96,6 +113,17 @@ body {
 .box img:hover {
     transform: scale(0.95);
 }
+/* ------------------- events */
+.events img {
+    height: 20vh;
+    width: 20vw;
+}
+.events {
+    display: flex;
+    padding: 0 10%;
+
+}
+
 
 
 /* -------------------form */
@@ -203,8 +231,7 @@ footer {
     color:rgb(92, 40, 40);
 
 }
-
-
+/* --------------------- media query */
 
 @media only screen and (max-width: 990px) {
     .navbar-nav {
