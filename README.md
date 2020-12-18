@@ -56,8 +56,7 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 
 
 
-![pallate 1](assets/images/ms1-color-1.png)
-![pallate 2](assets/images/ms1-color-2.png)
+![pallate 1](assets/images/ms1-color-pallate.png)
 
 The above color pallate will be the main color theme throughout the page. 
 

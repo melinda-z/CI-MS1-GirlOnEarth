@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&family=Pacifico&family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 /* ---------------------- header */
 
 body {
-    background: #f0e8ed;
+    background: #FFEFE0;
     margin: 0;
 }
 
 .navbar {
     margin: 0;
     height: 15vh;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
 }
 
 #nav-img {
@@ -32,22 +35,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+.cover img {
+    width: 70vw;
+    height: 85vh;
+    margin-top: 15vh;
 }
 .cover p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7em;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 3em;
     text-transform: capitalize;
-    color: #a5a58d;
+    color: black;
     text-align: center;
+    margin-top: 15vh;
 }
 
 /*-------------------- about */
 
 .container {
-    background-color: #ffcdb2;
+    background-color: #FED9CA;
     display: flex;
     align-items: center;
 
@@ -72,7 +80,7 @@ body {
 
 
 .divider {
-    background-color: #b5838d;
+    background-color: #C5C5C5;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -162,7 +170,7 @@ hr {
 
 h2 {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 5%;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 1000;
@@ -202,12 +210,12 @@ label {
 
 footer {
     margin: 0;
-    background-color: rgb(114, 104, 112);
+    background-color: #7D7D7D;
     color:beige;
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 0;
-    height: 10vh;
+    height: 15vh;
    }
 .social-links {
     font-size: 1.5em;  
@@ -238,6 +246,9 @@ footer {
         background-color:rgba(250, 250, 250);
         margin-top: 8vh;
     }
+    .grid-wrapper {
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 320px) {
     .navbar {
@@ -245,6 +256,22 @@ footer {
         margin:0;
         padding:0;
     }
+    .divider {
+        height: 30vh;
+    }
+    .text-input {
+        margin-left: 9px;
+    }
+    .contact-form {
+        position: relative;
+        top: 8%;
+    }
+    .cover {
+        display: block;
+        height: 200vh;
+       
+    }
+
 }
 @media only screen and (max-width: 768px) {
     .container {
@@ -256,5 +283,22 @@ footer {
     }
     .container p {
         padding: 10px;
+    }
+    .cover {
+        display: block;
+        height: 115vh;
+        
+    }
+    .cover img {
+        width: 100vw;
+        /* height: 80vh; */
+    }
+    .cover p {
+        width: 100vw;
+        background-color: #FAFAFA;
+        margin: 0;
+    }
+    footer {
+        height: 25vh;
     }
 }
