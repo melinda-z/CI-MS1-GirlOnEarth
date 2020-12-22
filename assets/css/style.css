@@ -4,7 +4,7 @@
 /* ---------------------- header */
 
 body {
-    background: #FFEFE0;
+    background: #f8f9fa;
     margin: 0;
 }
 
@@ -36,7 +36,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #FAFAFA;
+    background-color: #f2e9e4;
 }
 .cover img {
     width: 70vw;
@@ -50,22 +50,58 @@ body {
     color: black;
     text-align: center;
     margin-top: 15vh;
+    position: relative;
+    animation-name: head-line;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes head-line {
+    0% { 
+        left: -1000px; 
+
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.btn {
+    background:RGBA(197,197,197);
+    border: 1px solid #7D7D7D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5em;
+    border-radius: 30px;
+    position: relative;
+    opacity: 0;
+    animation-name: animation-btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+@keyframes animation-btn {
+    0% { 
+        opacity: 0; 
+}
+    100% {
+        opacity: 1;
+    }
+}
+.btn:hover {
+    transform: rotateY(180deg);
 }
 
 /*-------------------- about */
 
 .container {
-    background-color: #FED9CA;
-    display: flex;
-    align-items: center;
-
+    background-color: #f8f9fa;
+    display: block;
 }
 
 .container img {
-    height: 50%;
-    width: 50%;
-    border-radius: 50%;
-    float: left;
+    height: 70%;
+    width: 40%;
     padding: 3em ;
 }
 .container p {
@@ -75,6 +111,11 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 2.5em;
     font-size: 1.5em;
+}
+#about {
+    width: 40%;
+    height: 70%;
+    background-color: #f2e9e4;
 }
 /*-------------------- divider */
 
@@ -286,7 +327,7 @@ footer {
     }
     .cover {
         display: block;
-        height: 115vh;
+        height: 130vh;
         
     }
     .cover img {
