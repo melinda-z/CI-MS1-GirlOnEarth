@@ -47,15 +47,16 @@ body {
     font-family: 'Bungee Outline', cursive;
     font-size: 3em;
     text-transform: capitalize;
+    line-height: 2;
     color: black;
     text-align: center;
     margin-top: 15vh;
     position: relative;
-    animation-name: head-line;
+    animation-name: headline-animation;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-@keyframes head-line {
+@keyframes headline-animation {
     0% { 
         left: -1000px; 
 
@@ -69,6 +70,7 @@ body {
     background:RGBA(197,197,197);
     border: 1px solid #7D7D7D;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
     font-size: 0.5em;
     border-radius: 30px;
     position: relative;
@@ -89,7 +91,7 @@ body {
     }
 }
 .btn:hover {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 
 /*-------------------- about */
@@ -140,11 +142,12 @@ body {
 
 
 .divider {
-    background-color: #C5C5C5;
+    background-color: #f2e9e4;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40vh;
 }
 .divider p {
     color: #6d6875;
@@ -270,7 +273,7 @@ label {
 
 footer {
     margin: 0;
-    background-color: #7D7D7D;
+    background-color: #22223b;
     color:beige;
     font-size: 1.5em;
     text-align: center;
@@ -308,6 +311,9 @@ footer {
     }
     .grid-wrapper {
         padding: 0;
+    }
+    .divider {
+        height: 30vh;
     }
     
 }
@@ -352,7 +358,6 @@ footer {
     }
     .cover img {
         width: 100vw;
-        /* height: 80vh; */
     }
     .cover p {
         width: 100vw;
@@ -361,5 +366,30 @@ footer {
     }
     footer {
         height: 25vh;
+    }
+    .container img {
+    height: 30vh;
+    width: 25vw;
+    padding: 0;
+    }
+    #img-1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    }
+    #img-2 {
+    position: absolute;
+    left: 33%;
+    top: 0;
+    }
+    .container p {
+        font-size: 1em;
+    }
+    #about {
+        height: 30vh;
+    }
+    .container {
+    height: 30vh;
+    width: 100vw;
     }
 }
