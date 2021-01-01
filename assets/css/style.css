@@ -97,16 +97,13 @@ body {
 /*-------------------- about */
 .about {
     position: relative;
-}
-
-.container {
     margin: 0;
     background-color: #f8f9fa;
     height: 70vh;
     width: 100vw;
 }
 
-.container img {
+.about img {
     height: 35vh;
     width: 30vw;
 }
@@ -121,14 +118,13 @@ body {
     left: 33%;
     top: 38%;
 }
-.container p {
+ .about p {
     color: #6d6875;
     font-weight: bold;
     padding: 3em;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 2.5em;
     font-size: 1.5em;
-    
 }
 #about {
     width: 30vw;
@@ -317,40 +313,45 @@ footer {
     }
     
 }
-@media only screen and (max-width: 320px) {
-    .navbar {
-        width:100%;
-        margin:0;
-        padding:0;
-    }
-    .divider {
-        height: 30vh;
-    }
-    .text-input {
-        margin-left: 9px;
-    }
-    .contact-form {
-        position: relative;
-        top: 8%;
-    }
-    .cover {
-        display: block;
-        height: 200vh;
-       
-    }
-
-}
 @media only screen and (max-width: 768px) {
-    .container {
-        display: block;
+    .about {
+        margin: 0;
+        position: relative;
+        width: 100vw;
+        height: 50vh;
+
     }
-    .container img {
-        padding:  10px;
-        float: right;
+    .about p {
+        padding: 5%;
+        width: 60vw;
+        height: 50vh;
+        font-size: 1.5em;
+
     }
-    .container p {
-        padding: 10px;
+    #img-1 {
+        position: absolute;
+        width: 30vw;
+        height: 25vh;
+        left: 5%;
+        top: 0;
     }
+    #img-2 {
+        position: absolute;
+        width: 30vw;
+        height: 25vh;
+        left: 5%;
+        top: 50%;
+    }
+    #about {
+        position: absolute;
+        left: 40vw;
+        top: 0;
+        width: 55vw;
+        height: 50vh;
+        overflow: scroll;
+        background-color:#f2e9e4; 
+    }
+    
     .cover {
         display: block;
         height: 130vh;
@@ -367,29 +368,31 @@ footer {
     footer {
         height: 25vh;
     }
-    .container img {
-    height: 30vh;
-    width: 25vw;
-    padding: 0;
-    }
-    #img-1 {
-    position: absolute;
-    left: 5%;
-    top: 0;
-    }
-    #img-2 {
-    position: absolute;
-    left: 33%;
-    top: 0;
-    }
-    .container p {
-        font-size: 1em;
-    }
-    #about {
-        height: 30vh;
-    }
-    .container {
-    height: 30vh;
-    width: 100vw;
+}
+@media only screen and (max-width: 414px) {
+    .cover p {
+        font-size: 2.8em;
     }
 }
+@media only screen and (max-width: 320px) {
+    .navbar {
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .divider {
+        height: 30vh;
+    }
+    .text-input {
+        margin-left: 9px;
+    }
+    .contact-form {
+        position: relative;
+        top: 8%;
+    }
+    .cover p {
+        font-size: 2em;
+    }
+}
+
+
