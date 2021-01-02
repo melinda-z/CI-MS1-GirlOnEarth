@@ -143,7 +143,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
 }
 .divider p {
     color: #6d6875;
@@ -160,17 +160,35 @@ body {
     width: 300px;
     height: 300px;
     margin: 0;
+    border: 1px solid gray;
+    border-radius: 2%;
 }
 
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 0;
-    padding: 0 10%;
+    grid-gap: 1%;
+    padding: 5% 10%;
 }
-.card {
-    max-width: 100%;
-    min-height: 85px;
+.box {
+    border-style: double;
+    border-color: gray;
+    border-radius: 2%;
+
+}
+.box h3 {
+    font-family: 'Architects Daughter', cursive;
+    color: #4a4e69;
+    font-weight: 600;
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+.box p {
+    font-family:'Yanone Kaffeesatz', sans-serif; 
+    font-size: medium;
+    color: #4a4e69;
+    margin-left: 2%;
 }
 .box img {
     width: 100%;
@@ -306,11 +324,11 @@ footer {
         margin-top: 8vh;
     }
     .grid-wrapper {
+        grid-gap: 0;
         padding: 0;
     }
-    .divider {
-        height: 30vh;
-    }
+
+    
     
 }
 @media only screen and (max-width: 768px) {
