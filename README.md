@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [About](#about)
 2. [Users Experience (UX)](#user-experience)
-3. [Features](#feature)
-4. [Design](#design)
+3. [Design](#design)
+4. [Features](#feature)
 5. [Technologies Used](#Technologies-used)
 7. [Testing](#testing)
 8. [Debugging](#debugging)
@@ -12,22 +12,22 @@
 9. [Credits](#credits)
 
 
-## About
+## 1. About
 
 
-Girl On Earth is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
+GirlOnEarth. is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
 
-## Users Experience (UX)
+## 2. Users Experience (UX)
 
 
-#### Users stories
+#### 2.1 Users stories
 
 As a high value woman, I want to live my life the maximum by surrounding myself with inspiring metaphors shared by like-minded individuals, so that I can live my life to the maximum aligned with my passions and desire.
 As a user I am looking for insparations, new ideas, interesting topics, uplifting spirits.
 As a user I am looking for like-minded people to hang-out with, make friends with, and empowering each other.
 As a user I am looking for interesting acitivities I can join in to spice up my free time.
 
-#### The Five Planes of UX
+#### 2.2 The Five Planes of UX
 
 * ##### Strategy Plane
 
@@ -49,10 +49,10 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 * ##### Surface Plane
   Becasue of our audience is female individuals, our color theme will be light and girly, images should be feminine, fonts will also be delicate. Minimise the content is the goal, to create a calming sensation throughout the page.
 
-## Design
+## 3. Design
 
 
-#### Colours
+#### 3.1 Colours
 
 
 
@@ -61,23 +61,38 @@ As a user I am looking for interesting acitivities I can join in to spice up my 
 The above color pallate will be the main color theme throughout the page. 
 
 
-#### Typograhpy
+#### 3.2 Typograhpy
 "Architects Daughter" font from google font will be the font used for the navbar with "cursive" as a fallback.
 
-#### Imagery
+#### 3.3 Imagery
 Througout the project, I am aiming for images that has natural color, easy on the eyes, to create a soothing sensation.
 please see in the credit section for links to images source.
 
-#### Mockups
+#### 3.4 Mockups
 [wireframes](assets/wireframes/ms1.pdf)
 
-## Features
+## 4. Features
 
 
-#### Existing Features
+#### 4.1 Existing Features
+The site is a one-page site divided by five sections, include *home*, *about*, *passions*, *acitivities*, and *contact*. The layout of the page also completed by its responsive navbar, footer and two dividers to ensure a balanced visual effect.
+#### Navbar
+The responsive navbar has been achieved by Implementing bootstrap 4, it collapes into a button when the screen smaller than 990px. It contains links to all sections, and the logo of the page. The logo also used as a homepage link.
+#### Homepage
+The homepage contains a main image, a title quote and a button. I used CSS animation to make the quote sliding from left to right as soon as the page is loading, then the button "starts now" appears 2 second later. The aim here is to grab users' attendation, make the site appealing.
+#### About
+The about section contains two images and the a paragraph describing what the page is all about, so the users can have a clear view of what they can get from using the page. The section's visual effect is achieved by using CSS position and overflow.
+#### Passions 
+This section contains 6 images and a title with a quote,  explaining what topics the group is focusing on, gives the user a general idea about the passions what we might have in common. I used CSS grid to make this section completely responsive for all different screen sizes.
+#### Acitivities
+This section gives the user an idea about what acitivities we are going to do together to reach our goals. It contains 3 small sections with an image and time and place in each. 
+#### Contact
+#### Dividers
+#### Footer
 
 
-#### Features Left to Implement
+
+#### 4.2 Features Left to Implement
 
 ## Technologies Used
 
