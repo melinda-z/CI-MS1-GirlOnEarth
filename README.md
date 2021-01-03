@@ -15,7 +15,21 @@
 ## 1. About
 
 
-GirlOnEarth. is a group gathering like-minded female individuals sharing the same values and metaphors about everyday life, empowering each other to live a sustainable lifestyles.
+GirlOnEarth. is a website created for a meet-up group. The purpose of the group is to gathering like-minded female individuals sharing the same values and metaphors about life, empowering each other to live their life to the maximum to dream big and trive! 
+
+I have moved to Ireland since the age of 20, ever since then I have been busy surving, studying and working, having a family and raising kids, it has been non-stop. Until March last year, Covid happened, it forced us to pause, until then I finally relized that I haven't been busy living, my mind wasn't on how to live my life - the once and only! Ever since then my focus was shifted onto self-improvement, empowering mindset, mindfulness... Having been working as a beautician for many years, it defines part of me. And being a mother is a major role of my life. And the relationship struggles! It certainly created the ups and downs over the years! 
+
+So, there you go! I came up with this idea for my Milestone project 1 for the full stack web development course at [code institute](https://codeinstitute.net/). 
+
+Main requirements
+* Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+* Incorporate a main navigation menu and structured layout.
+* Incorporate a main navigation menu and structured layout and use Git & GitHub for version control.
+
+Live project website can be accesed here.
+
+Repository for this project can be accesed here.
+
 
 ## 2. Users Experience (UX)
 
@@ -73,7 +87,6 @@ please see in the credit section for links to images source.
 
 ## 4. Features
 
-
 #### 4.1 Existing Features
 The site is a one-page site divided by five sections, include *home*, *about*, *passions*, *acitivities*, and *contact*. The layout of the page also completed by its responsive navbar, footer and two dividers to ensure a balanced visual effect.
 #### Navbar
@@ -85,55 +98,56 @@ The about section contains two images and the a paragraph describing what the pa
 #### Passions 
 This section contains 6 images and a title with a quote,  explaining what topics the group is focusing on, gives the user a general idea about the passions what we might have in common. I used CSS grid to make this section completely responsive for all different screen sizes.
 #### Acitivities
-This section gives the user an idea about what acitivities we are going to do together to reach our goals. It contains 3 small sections with an image and time and place in each. 
+This section gives the user an idea about what acitivities we are going to do together to reach our goals. It contains 3 small sections with an image and time and place each event is happening. 
 #### Contact
+The contact section contains a form, which gathering users informaton, includes users' first and last name, email address and a text field for them to leave a message. A submit button is also included. Although at the moment, there's no backend attached to the site, but by the time I finish this course, I would be able to Implement such feature.
 #### Dividers
+There are two individual dividers divides the page into sections, inside the divider, there's a motivational quote.
 #### Footer
-
-
+The footer has been divided into three sections, which is contact link, social icons links and copyright. 
 
 #### 4.2 Features Left to Implement
+As the course progress, I would love to add additional features to this page, for example, adding intereting acticles and links into each passions, subscribe users onto email list. so whenever there's an update on the page or new articles, they will be notified. All the backend features will be Implemented by the time I finished this course, such as users' informaton etc.
 
-## Technologies Used
+## 5. Technologies Used
 
+#### 5.1 Languages Used
 
-#### Languages Used
+#### 5.2 Frameworks, Libraries and Programs Used
 
-#### Frameworks, Libraries and Programs Used
-
-## Testing
-
-
-#### Functiionality Testing
-
-#### CSS3 validator
-
-#### HTML5 validator
-
-#### Usability Testing
-
-#### Compatibility Testing
-
-#### Performance Testing
-
-##### Tested on Developer Tools Lighthouse
-
-##### A Lighthouse report in Chrome DevTools
-
-## Debugging
+## 6. Testing
 
 
-## Deployment
+#### 6.1 Functiionality Testing
+
+#### 6.2 CSS3 validator
+
+#### 6.3 HTML5 validator
+
+#### 6.4 Usability Testing
+
+#### 6.5 Compatibility Testing
+
+#### 6.6 Performance Testing
+
+##### 6.6.1 Tested on Developer Tools Lighthouse
+
+##### 6.6.2 A Lighthouse report in Chrome DevTools
+
+## 7. Debugging
 
 
-## Credits
+## 8. Deployment
 
 
-#### Content
+## 9. Credits
 
-#### Media
 
-#### Acknowledgements
+#### 9.1 Content
+
+#### 9.2 Media
+
+#### 9.3 Acknowledgements
 
 
 
