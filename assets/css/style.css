@@ -107,13 +107,13 @@ body {
 }
 #img-1 {
     position: absolute;
-    left: 7%;
+    right: 7%;
     top: 10%;
     z-index: 1;
 }
 #img-2 {
     position: absolute;
-    left: 33%;
+    right: 33%;
     top: 38%;
 }
  .about p {
@@ -130,7 +130,7 @@ body {
     background-color: #f2e9e4;
     position: absolute;
     bottom: 0;
-    right: 7%;
+    left: 7%;
     overflow: scroll;
 
 }
