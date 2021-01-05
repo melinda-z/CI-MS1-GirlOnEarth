@@ -124,7 +124,7 @@ body {
     line-height: 2.5em;
     font-size: 1.5em;
 }
-#about {
+#about-us {
     width: 30vw;
     height: 70vh;
     background-color: #f2e9e4;
@@ -199,11 +199,11 @@ body {
     transform: scale(0.95);
 }
 /* ------------------- events */
-.events img {
+.activities img {
     height: 20vh;
     width: 20vw;
 }
-.events {
+.activities {
     display: flex;
     padding: 0 10%;
 
@@ -360,7 +360,7 @@ footer {
         left: 5%;
         top: 50%;
     }
-    #about {
+    #about-us {
         position: absolute;
         left: 40vw;
         top: 0;

@@ -19,7 +19,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand" href="#"><img id="nav-img" src="assets/images/logo.png"
+            <a class="navbar-brand" href="index.html"><img id="nav-img" src="assets/images/logo.png"
                     alt="logo-girlonearth" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -29,16 +29,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Passions</a>
+                        <a class="nav-link" href="#passions">Passions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#activities">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,10 +52,10 @@
         <p>We only live once, become the person you want to be!<br><span class="btn">starts now!</span>
 </p>
     </section>
-    <section class="about">
+    <section id="about" class="about">
         <img id="img-1" src="assets/images/about-image-1.jpg" alt="girl-group">
         <img id="img-2" src="assets/images/about-image-2.jpg" alt="girl-group">
-        <div id="about">
+        <div id="about-us">
             <p>GirlOnEarth. is a local female group passionate about living. We focus on personal growth, we believe
                     everyone should be constantly working on themselves to fully enjoy life. We gather once a week to share
                     ideas and activities to connect with people and ourselves. </p>
@@ -61,7 +64,7 @@
     <section class="divider">
         <p>A journey of a thousands miles begins with a single step!</p>
     </section>
-    <section class="passions grid-wrapper">
+    <section id="passions" class="passions grid-wrapper">
         <div class="box" id="self-development">
             <img src="assets/images/self-development.jpg" alt="girl-working">
                 <h3>Self-development</h3>
@@ -99,8 +102,8 @@
     <section class="divider">
         <p>A journey of a thousands miles begins with a single step!</p>
     </section>
-    <section class="events">
-        <div class="event-1">
+    <section id="activities" class="activities">
+        <div class="act-1">
             <img src="assets/images/yoga-meditation.jpg" alt="yoga-meditation">
             <ul>
                 <li><i class="fas fa-heartbeat"></i>Yoga and meditation</li>
@@ -108,7 +111,7 @@
                 <li>Castleknock Hotel</li>
             </ul>
         </div>
-        <div class="event-2">
+        <div class="act-2">
             <img src="assets/images/beauty-fashion.jpg" alt="dressing-room">
             <ul>
                 <li>what</li>
@@ -116,7 +119,7 @@
                 <li>where</li>
             </ul>
         </div>
-        <div class="event-3">
+        <div class="act-3">
             <img src="assets/images/parenting-relationship.jpg" alt="group-chat">
             <ul>
                 <li>what</li>
@@ -125,7 +128,7 @@
             </ul>
         </div>
     </section>
-    <section class="form-section">
+    <section id="contact" class="form-section">
         <form class="contact-form" method="post" action="#">
             <h2>Let's Grow Together!</h2>
             <hr />
@@ -152,7 +155,7 @@
     </section>
     <footer class="container-fluid ">
         <div class="row footer-content align-items-center">
-            <div class="col-sm-4" id="contact">Contact Us</div>
+            <div class="col-sm-4"><a href="#contact">Contact Us</a></div>
             <div class="social-icons col-sm-4 ">
                 <ul class="social-links ">
                     <li>
