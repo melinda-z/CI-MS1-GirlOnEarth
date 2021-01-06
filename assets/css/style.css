@@ -198,14 +198,16 @@ body {
 .box img:hover {
     transform: scale(0.95);
 }
-/* ------------------- events */
-.activities img {
-    height: 20vh;
-    width: 20vw;
-}
+/* ------------------- activities */
+
 .activities {
-    display: flex;
-    padding: 0 10%;
+    background-image: url(../images/bg-activities.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 40vh;
+    margin-left: 10%;
 
 }
 
