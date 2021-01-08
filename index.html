@@ -19,8 +19,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img id="nav-img" src="assets/images/logo.png"
-                    alt="logo"/></a>
+            <a class="navbar-brand" href="index.html"><img id="nav-img" src="assets/images/logo.png" alt="logo" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="toggle navigation">
@@ -135,55 +134,59 @@
         </div>
     </section>
     <section id="contact" class="form-section">
-        <form class="contact-form" method="post" action="#">
-            <h2>Let's Grow Together!</h2>
-            <hr />
-            <div class="row">
-                <div class="col-6">
-                    <label for="fname">First Name</label><br />
-                    <input class="text-input" type="text" id="fname" required /><br />
+        <div class="form-wrapper">
+            <img src="assets/images/form-img.jpg" alt="girl-group">
+            <form class="contact-form" method="post" action="#">
+                <h2>Let's Grow Together!</h2>
+                <hr />
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
                 </div>
-                <div class="col-6">
-                    <label for="lname">Last Name</label><br />
-                    <input class="text-input" type="text" id="lname" required /><br />
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
                 </div>
-                <div class="col-12">
-                    <label for="email">Email</label><br />
-                    <input class="text-input" type="email" id="email" required /><br />
-                    <label for="message">Message (Optional)</label><br />
-                    <input class="text-input" type="text" id="message" /><br />
-                    <button id="form-btn" type="button" class="btn btn-secondary btn-lg">
-                        Submit
-                    </button>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-            </div>
-        </form>
+                <button id="form-btn" type="button" class="btn btn-secondary btn-lg">
+                            Submit
+                        </button>
+            </form>
+        </div>
     </section>
     <footer class="container-fluid ">
         <div class="row footer-content align-items-center">
-            <div class="col-sm-4"><a href="#index.html">Home page</a></div>
+            <div class="col-sm-4"><a id="footer-logo" href="#index.html">GirlOnEarth.</a></div>
             <div class="social-icons col-sm-4 ">
                 <ul class="social-links">
                     <li>
-                        <a target="blank" href="#">
+                        <a target="blank" href="https://www.facebook.com/">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">facebook</span>
                         </a>
                     </li>
                     <li>
-                        <a target="blank" href="#">
+                        <a target="blank" href="https://twitter.com/">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">twitter</span>
                         </a>
                     </li>
                     <li>
-                        <a target="blank" href="#">
+                        <a target="blank" href="https://www.instagram.com/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">instagram</span>
                         </a>
                     </li>
                     <li>
-                        <a target="blank" href="#">
+                        <a target="blank" href="https://www.pinterest.ie/">
                             <i class="fab fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">pinterest</span>
                         </a>
@@ -193,7 +196,7 @@
             <div class="col-sm-4 copyright">
                 <p>
                     <i class="far fa-copyright"></i> 2020 coded with
-                    <i class="fas fa-heart"></i> by Melinda Zhang.
+                    <i class="fas fa-heart"></i> by <a id="coder" href="https://github.com/MelindaZhang2020" target="_blank">Melinda Zhang</a>.
                 </p>
             </div>
         </div>

@@ -13,6 +13,7 @@ body {
     top: 0;
     width: 100%;
     border-bottom: 1px solid darkgray;
+    background-color:#f8f9fa ;
 }
 
 #nav-img {
@@ -232,25 +233,36 @@ body {
 /* -------------------form */
 
 .form-section {
-    background-image: url(../images/bg-form.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100vw;
+    height: 80vh;
+    background-color: #f2e9e4;
+    padding-left: 10%;
+    padding-top: 6%;
+}
+.form-wrapper {
+    width: 80vw;
     height: 60vh;
+    position: relative;
+    
+}
+.form-section img {
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .contact-form {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color:honeydew;
     background-color: rgba(22, 19, 19, 0.4);
-    border-radius: 10px;
     margin: 0;
-    position: relative;
-    top: 15%;
-    left: 5%;
-    width: 90%;
-    height: 80%;
-    line-height: 200%;
+    width: 40vw;
+    height: 60vh;
+    line-height: 2;
+    position: absolute;
+    left: 40vw;
+    top: 0;
 }
 
 hr { 
@@ -271,7 +283,7 @@ h2 {
     font-weight: 1000;
 }
 
-label {
+/* label {
     margin-left: 2.5em;
     font-size: 1.3rem;
     margin-bottom: 0;
@@ -298,7 +310,7 @@ label {
     position: absolute;    
     left: 45%;
     top: 110%;
-}
+} */
 
 /* --------------------- footer */
 
@@ -310,6 +322,15 @@ footer {
     text-align: center;
     margin-bottom: 0;
     height: 15vh;
+   }
+   #footer-logo {
+       font-family: 'Shadows Into Light', cursive; 
+       font-size: 1.5em;
+       color: honeydew;
+   }
+   #footer-logo:hover {
+       color: rgb(92, 40, 40);
+       text-decoration: none;
    }
 .social-links {
     font-size: 1.5em;  
@@ -331,8 +352,21 @@ footer {
 }
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
-
+    text-decoration: none;
 }
+#coder {
+    color: honeydew;
+}
+#coder:hover {
+    color: rgb(92, 40, 40);
+    text-decoration: none;
+}
+.fa-heart {
+    color: red;
+}
+
+
+
 /* --------------------- media query */
 
 @media only screen and (max-width: 991px) {
@@ -417,6 +451,17 @@ footer {
     .activities h4 {
         font-size: 0.9em;
     }
+    .form-section {
+        padding: 0;
+        height: 60vh;
+    }
+    .form-section img {
+        width: 50vw;
+    }
+    .contact-form {
+        width: 50vw;
+        left: 50vw;
+    }
     
     footer {
         height: 25vh;
@@ -425,6 +470,13 @@ footer {
 @media only screen and (max-width: 414px) {
     .cover p {
         font-size: 2.8em;
+    }
+    .form-wrapper img {
+        visibility: hidden;
+    }
+    .contact-form {
+        left: 0;
+        width: 100vw;
     }
 }
 @media only screen and (max-width: 320px) {
