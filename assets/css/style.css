@@ -64,7 +64,10 @@ body {
         left: 0;
     }
 }
-
+.button a {
+    color: black;
+    text-decoration: none;
+}
 .button {
     background:RGBA(197,197,197);
     border: 1px solid #7D7D7D;
@@ -277,6 +280,7 @@ hr {
 } 
 
 h2 {
+    font-size: 3em;
     text-align: center;
     padding-top: 5%;
     text-transform: uppercase;
@@ -300,39 +304,23 @@ h2 {
 }
 #form-btn {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     right: 45%;
+    font-size: 1.5em;
+    border-radius: 13px;
+    border: 2px solid gray;
 }
 
-/* label {
-    margin-left: 2.5em;
-    font-size: 1.3rem;
-    margin-bottom: 0;
+.form-label {
+    font-size: 2em;
+    margin-left: 3%;
 }
-
-.text-input {
-    margin-left: 2.5em;
-    background-color: transparent;
-    border: 1.5px solid honeydew;
-    width: 80%;
-    border-radius: 8px;
-    height: 3em;
-    margin-top: 0; 
+.name {
+    margin-left: 5%;
 }
-
-#message {
-    height: 8em;
-    width: 90%;
+.form-control {
+    font-size: 1.3em;
 }
-#email {
-    width: 90%;
-}
-#form-btn {
-    position: absolute;    
-    left: 45%;
-    top: 110%;
-} */
-
 /* --------------------- footer */
 
 footer {
@@ -344,6 +332,7 @@ footer {
     margin-bottom: 0;
     height: 15vh;
    }
+
    #footer-logo {
        color: honeydew;
    }
