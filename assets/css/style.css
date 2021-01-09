@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&family=Yusei+Magic&display=swap');
 /* ---------------------- header */
 
 body {
@@ -65,12 +65,13 @@ body {
     }
 }
 
-.btn {
+.button {
     background:RGBA(197,197,197);
     border: 1px solid #7D7D7D;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Yusei Magic', sans-serif;
     text-transform: uppercase;
     font-size: 0.5em;
+    font-weight: bolder;
     border-radius: 30px;
     position: relative;
     opacity: 0;
@@ -89,7 +90,7 @@ body {
         opacity: 1;
     }
 }
-.btn:hover {
+.button:hover {
     transform: rotateY(360deg);
 }
 
@@ -282,6 +283,26 @@ h2 {
     letter-spacing: 2px;
     font-weight: 1000;
 }
+.users-name {
+    width: 90%;
+    height: 4em;
+    margin-left: 4%;
+}
+.users-email {
+    margin-left: 2%;
+    width: 96%;
+    height: 4em;
+}
+.users-message {
+    width: 96%;
+    margin-left: 2%;
+    height: 100px;
+}
+#form-btn {
+    position: absolute;
+    bottom: 10%;
+    right: 45%;
+}
 
 /* label {
     margin-left: 2.5em;
@@ -324,8 +345,6 @@ footer {
     height: 15vh;
    }
    #footer-logo {
-       font-family: 'Shadows Into Light', cursive; 
-       font-size: 1.5em;
        color: honeydew;
    }
    #footer-logo:hover {
@@ -352,7 +371,6 @@ footer {
 }
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
-    text-decoration: none;
 }
 #coder {
     color: honeydew;
