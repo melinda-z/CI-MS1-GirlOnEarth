@@ -22,13 +22,16 @@ body {
     left: 0;
     top: 0;
     filter: invert(70%);
-    transition-property: transform;
-    transition-duration: 1s;
+    animation: earth-rotate 1s ease-in-out infinite alternate;
+}
+@keyframes earth-rotate {
+    100% {
+        transform: rotateY(360deg);
+    }
 }
 #nav-img:hover {
-    transform: rotate(360deg);
+    animation-play-state: paused;
 }
-
 
 .logo {
     margin-left: 40px;
@@ -37,15 +40,16 @@ body {
 }
 .header a {
   float: left;
+  margin-right: 0;
   color :#4a4e69;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 2em; 
-  line-height: 25px;
   border-radius: 4px;
   font-family: 'Architects Daughter', cursive;
 }
+
 
 .header a:hover {
   background-color: #ddd;
@@ -69,12 +73,22 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: #f2e9e4;
+    
 }
 .cover img {
     width: 70vw;
     height: 100vh;
     padding-top: 13vh;
     margin: 0;
+    animation: cover-animation 4s ease-in  1 alternate forwards;
+}
+@keyframes cover-animation {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 .cover p {
     font-family: 'Bungee Outline', cursive;
@@ -114,7 +128,7 @@ body {
     opacity: 0;
     animation-name: animation-btn;
     animation-duration: 3s;
-    animation-delay: 3s;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
     transition-property: transform;
     transition-duration: 1s;
@@ -420,7 +434,7 @@ footer {
     }    
 }
 @media only screen and (max-width: 768px) {
-    .header a {
+    /* .header a {
         float: none;
         display: block;
         text-align: left;
@@ -428,7 +442,7 @@ footer {
   
   .header-right {
         float: none;
-    }
+    } */
 
     .about {
         margin: 0;
