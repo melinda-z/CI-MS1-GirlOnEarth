@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&family=Yusei+Magic&display=swap');
 /* ---------------------- header */
 
-body {
-    background: #f8f9fa;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-.header {
-    overflow: hidden;
-    background-color: #f8f9fa; 
-    padding: 25px 10px;    
-    margin: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    border-bottom: 1px solid darkgray;
-    z-index: 3;
 
+nav {
+  background:#f8f9fa;
+  height: 15vh;
+  width: 100%;
+  border-bottom: 1px solid gray;
 }
 #nav-img {
     position: absolute;
@@ -32,39 +30,55 @@ body {
 #nav-img:hover {
     animation-play-state: paused;
 }
-
-.logo {
-    margin-left: 40px;
-    font-size: 3em;
-    color: #4a4e69;
-}
-.header a {
-  float: left;
-  margin-right: 0;
-  color :#4a4e69;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 2em; 
-  border-radius: 4px;
-  font-family: 'Architects Daughter', cursive;
-}
-
-
-.header a:hover {
-  background-color: #ddd;
+label.logo {
   color: black;
+  font-size: 3em;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
-
-.header a.active {
-  background-color: #c9ada7;
-  color: white;
-}
-
-.header-right {
+nav ul {
   float: right;
+  margin-right: 20px;
 }
-
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #4a4e69;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5em;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a.active,a:hover {
+  background:#f2e9e4;
+  transition: .5s;
+  text-decoration: none;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #c9ada7;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo {
+    font-size: 1.5em;
+    padding-left: 20%;
+  }
+  nav ul li a {
+    font-size: 1em;
+  }
+}
 
 /*-------------------- cover */
 .cover {
@@ -427,36 +441,52 @@ footer {
 
 @media only screen and (max-width: 991px) {
     
-    
     .grid-wrapper {
         grid-gap: 0;
         padding: 0;
     }    
 }
 @media only screen and (max-width: 768px) {
-    /* .header a {
-        float: none;
+    .checkbtn {
         display: block;
-        text-align: left;
     }
-  
-  .header-right {
-        float: none;
-    } */
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 20vh;
+        background: #f2e9e4;
+        top: 15vh;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 2px;
+    }
+    nav ul li a {
+        font-size: 1em;
+    }
+    a:hover,a.active {
+        background: none;
+        color: #b5838d;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 
     .about {
         margin: 0;
         position: relative;
         width: 100vw;
         height: 50vh;
-
     }
     .about p {
         padding: 5%;
         width: 60vw;
         height: 50vh;
         font-size: 1.5em;
-
     }
     #img-1 {
         position: absolute;
