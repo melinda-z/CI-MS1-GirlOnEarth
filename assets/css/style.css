@@ -1,99 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&family=Yusei+Magic&family=Fredericka+the+Great&display=swap');
+
 /* ---------------------- header */
 
 * {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 nav {
-  background:#f8f9fa;
-  height: 15vh;
-  width: 100%;
-  border-bottom: 1px solid gray;
+    background:#f8f9fa;
+    height: 15vh;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
+
 #nav-img {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 1%;
+    top: 1%;
     filter: invert(70%);
     animation: earth-rotate 1s ease-in-out infinite alternate;
 }
+
 @keyframes earth-rotate {
     100% {
         transform: rotateY(360deg);
     }
 }
+
 #nav-img:hover {
     animation-play-state: paused;
 }
+
 label.logo {
-  color: black;
-  font-size: 3em;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
+    font-family: 'Fredericka the Great', cursive;;
+    color: #4a4e69;
+    font-size: 3.7em;
+    line-height: 80px;
+    padding: 0 9.5%;
+    font-weight: bold;
+    margin-top: 2%;
 }
+
 nav ul {
-  float: right;
-  margin-right: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 2%;
 }
+
 nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
+
 nav ul li a {
-  color: #4a4e69;
-  font-family: 'Architects Daughter', cursive;
-  font-size: 1.5em;
-  padding: 7px 13px;
-  border-radius: 3px;
+    color: #4a4e69;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    padding: 7px 13px;
+    border-radius: 3px;
 }
+
 a.active,a:hover {
-  background:#f2e9e4;
-  transition: .5s;
-  text-decoration: none;
+    background:#f2e9e4;
+    transition: .5s;
+    text-decoration: none;
 }
+
 .checkbtn{
-  font-size: 30px;
-  color: #c9ada7;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
+    font-size: 30px;
+    color: #c9ada7;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
+
 #check{
-  display: none;
-}
-@media (max-width: 952px){
-  label.logo {
-    font-size: 1.5em;
-    padding-left: 20%;
-  }
-  nav ul li a {
-    font-size: 1em;
-  }
+    display: none;
 }
 
 /*-------------------- cover */
+
 .cover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vh; 
     background-color: #f2e9e4;
-    
 }
+
 .cover img {
+    z-index: 1;
     width: 70vw;
-    height: 100vh;
-    padding-top: 13vh;
-    margin: 0;
+    height: 85vh;
+    margin-top: 15vh;
     animation: cover-animation 4s ease-in  1 alternate forwards;
 }
 @keyframes cover-animation {
@@ -104,6 +113,7 @@ a.active,a:hover {
         transform: scale(1);
     }
 }
+
 .cover p {
     font-family: 'Bungee Outline', cursive;
     font-size: 3em;
@@ -120,18 +130,20 @@ a.active,a:hover {
 @keyframes headline-animation {
     0% { 
         left: -1000px; 
-
     }
     100% {
         left: 0;
     }
 }
+
 .button a {
     color: black;
     text-decoration: none;
 }
+
 .button {
-    background:RGBA(197,197,197);
+    background: RGBA(197,197,197);
+    padding: 0 5px;
     border: 1px solid #7D7D7D;
     font-family: 'Yusei Magic', sans-serif;
     text-transform: uppercase;
@@ -155,6 +167,7 @@ a.active,a:hover {
         opacity: 1;
     }
 }
+
 .button:hover {
     transform: rotateY(360deg);
 }
@@ -173,18 +186,21 @@ a.active,a:hover {
     height: 35vh;
     width: 30vw;
 }
+
 #img-1 {
     position: absolute;
     right: 7%;
     top: 10%;
-    z-index: 2;
+    z-index: 1;
 }
+
 #img-2 {
     position: absolute;
     right: 33%;
     top: 38%;
     z-index: 1;
 }
+
  .about p {
     color: #6d6875;
     font-weight: bold;
@@ -193,6 +209,7 @@ a.active,a:hover {
     line-height: 2.5em;
     font-size: 1.5em;
 }
+
 #about-us {
     width: 30vw;
     height: 70vh;
@@ -202,6 +219,7 @@ a.active,a:hover {
     left: 7%;
     overflow: scroll;
 }
+
 /*-------------------- divider */
 
 .divider {
@@ -235,31 +253,34 @@ a.active,a:hover {
     grid-gap: 1%;
     padding: 5% 10%;
 }
+
 .box {
     border-style: double;
     border-color: gray;
     border-radius: 2%;
 
 }
+
 .box h3 {
     font-family: 'Architects Daughter', cursive;
     color: #4a4e69;
     font-weight: 600;
     margin-left: 2%;
     margin-top: 1%;
-
 }
+
 .box p {
     font-family:'Yanone Kaffeesatz', sans-serif; 
     font-size: medium;
     color: #4a4e69;
     margin-left: 2%;
 }
+
 .box img {
     width: 100%;
-    transition: all 2s;
-    
+    transition: all 2s;  
 }
+
 .box img:hover {
     transform: scale(0.95);
 }
@@ -276,22 +297,26 @@ a.active,a:hover {
     margin-left: 10%;
     display: flex;
 }
+
 .activities {
     background-color: RGBA(74,78,105,0.4);
     margin-left: 2%;
     text-align: center;    
 }
+
 .activities img {
     margin: 25%;
     width: 5vw;
     height: 6vh;
     filter: invert(100%);
 }
+
 .activities h3 {
     text-transform: uppercase;
     line-height: 2;
     color: honeydew;
 }
+
 .activities h4 {
     line-height: 2;
     color: honeydew;
@@ -306,12 +331,13 @@ a.active,a:hover {
     padding-left: 10%;
     padding-top: 6%;
 }
+
 .form-wrapper {
     width: 80vw;
     height: 60vh;
     position: relative;
-    
 }
+
 .form-section img {
     width: 40vw;
     height: 60vh;
@@ -319,6 +345,7 @@ a.active,a:hover {
     left: 0;
     top: 0;
 }
+
 .contact-form {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color:honeydew;
@@ -350,21 +377,25 @@ h2 {
     letter-spacing: 2px;
     font-weight: 1000;
 }
+
 .users-name {
     width: 90%;
     height: 4em;
     margin-left: 4%;
 }
+
 .users-email {
     margin-left: 2%;
     width: 96%;
     height: 4em;
 }
+
 .users-message {
     width: 96%;
     margin-left: 2%;
     height: 100px;
 }
+
 #form-btn {
     position: absolute;
     bottom: 5%;
@@ -378,59 +409,68 @@ h2 {
     font-size: 2em;
     margin-left: 3%;
 }
+
 .name {
     margin-left: 5%;
 }
+
 .form-control {
     font-size: 1.3em;
 }
+
 /* --------------------- footer */
 
 footer {
-    margin: 0;
     background-color: #9a8c98;
     color:beige;
     font-size: 1.5em;
     text-align: center;
-    margin-bottom: 0;
     height: 15vh;
+    padding-top: 2%;
    }
 
-   #footer-logo {
-       color: honeydew;
+#footer-logo {
+    color: honeydew;
    }
-   #footer-logo:hover {
+
+#footer-logo:hover {
        color: rgb(92, 40, 40);
        text-decoration: none;
    }
+
 .social-links {
     font-size: 1.5em;  
     text-align: center;
     list-style: none;
     margin-top: 0.5em;
 }
+
 .social-links li a i {
     color: beige;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-   }
+}
+
 .social-links li {
     display: inline;
     padding: 1em;
 
 }
+
 .social-links li a i:hover {
     color:rgb(92, 40, 40);
 }
+
 #coder {
     color: honeydew;
 }
+
 #coder:hover {
     color: rgb(92, 40, 40);
-    text-decoration: none;
 }
+
 .fa-heart {
     color: red;
 }
@@ -440,40 +480,61 @@ footer {
 /* --------------------- media query */
 
 @media only screen and (max-width: 991px) {
-    
+
+    label.logo {
+    font-size: 2em;
+    padding-left: 12%;
+  }
+  nav ul li a {
+    font-size: 1.5em;
+  }
     .grid-wrapper {
         grid-gap: 0;
         padding: 0;
     }    
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 858px) {
+
+    label.logo {
+        padding-left: 15%;
+    }
     .checkbtn {
         display: block;
     }
-    ul {
+    nav ul {
         position: fixed;
         width: 100%;
-        height: 20vh;
-        background: #f2e9e4;
-        top: 15vh;
+        height: 30vh;
+        background: #c9ada7;
+        top: 13vh;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 2;
+        padding: 5px;
     }
     nav ul li {
         display: block;
         margin: 20px 0;
-        line-height: 2px;
+        line-height: 10px;
     }
     nav ul li a {
-        font-size: 1em;
+        font-size: 2em;
     }
     a:hover,a.active {
         background: none;
         color: #b5838d;
     }
-    #check:checked ~ ul{
+    #check:checked ~ ul {
         left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    label.logo {
+        padding-left: 40%;
     }
 
     .about {
@@ -513,7 +574,7 @@ footer {
     }
     .cover {
         display: block;
-        height: 130vh;
+        height: 120vh;
         
     }
     .cover img {
@@ -546,14 +607,27 @@ footer {
         width: 50vw;
         left: 50vw;
     }
-    
-    footer {
-        height: 25vh;
+}
+@media only screen and (max-width: 540px) {
+    .cover {
+        height: 130vh;
+    }
+    .form-section h2 {
+        font-size: 1.5em;
+    }
+    .form-label {
+        font-size: 1em;
     }
 }
 @media only screen and (max-width: 414px) {
     .cover p {
         font-size: 2.8em;
+    }
+    .cover img {
+        height: 60vh;
+    }
+    .cover {
+        height: 105vh;
     }
     .form-wrapper img {
         visibility: hidden;
@@ -561,13 +635,33 @@ footer {
     .contact-form {
         left: 0;
         width: 100vw;
+        height: 55vh;
+    }
+    .form-section {
+        height: 55vh;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
+
     .navbar {
         width:100%;
         margin:0;
         padding:0;
+    }
+    #nav-img {
+        display: none;
+    }
+    label.logo {
+        padding-left: 3%;
+    }
+    .cover {
+        height: 95vh;
+    }
+    .cover p {
+        font-size: 2em;
+    }
+    .activities {
+        margin: 0.5%;
     }
     .divider {
         height: 30vh;
@@ -575,13 +669,31 @@ footer {
     .text-input {
         margin-left: 9px;
     }
-    .contact-form {
-        position: relative;
-        top: 8%;
+    .form-section {
+        height: 60vh;
     }
-    .cover p {
-        font-size: 2em;
+    .contact-form {
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .form-section {
+        height: 65vh;
+    }
+    .contact-form {
+        height: 65vh;
     }
 }
 
+@media only screen and (max-width: 320px) {
+    #activities {
+        height: 45vh;
+    }
 
+    .form-section {
+        height: 68vh;
+    }
+    .contact-form {
+        height: 68vh;
+    }
+}
