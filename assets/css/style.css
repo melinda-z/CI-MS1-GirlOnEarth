@@ -191,6 +191,7 @@ a.active,a:hover {
 }
 .about hr {
     width: 30%;
+    border: 1px solid #4a4e69;
 }
 
 .about img {
@@ -255,9 +256,6 @@ a.active,a:hover {
 .passions img {
     width: 300px;
     height: 300px;
-    margin: 0;
-    border: 1px solid gray;
-    border-radius: 2%;
 }
 
 .grid-wrapper {
@@ -267,19 +265,12 @@ a.active,a:hover {
     padding: 5% 10%;
 }
 
-.box {
-    border-style: double;
-    border-color: gray;
-    border-radius: 2%;
-
-}
-
 .box h3 {
     font-family: 'Architects Daughter', cursive;
     color: #4a4e69;
     font-weight: 600;
     margin-left: 2%;
-    margin-top: 1%;
+    padding-top: 2%;
 }
 
 .box p {
@@ -291,11 +282,21 @@ a.active,a:hover {
 
 .box img {
     width: 100%;
-    transition: all 2s;  
+    border-radius: 5px 5px 0 0;
+}
+.quote-wrapper {
+    background-color: #f2e9e4;
+    border: 1px solid #9a8c98;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    height: 15vh;
+    transition: all 1.5s;
+    cursor: pointer;
 }
 
-.box img:hover {
-    transform: scale(0.95);
+.quote-wrapper:hover {
+    background: #ffcdb2;
+    border-color: #b5838d;
 }
 
 /* ------------------- activities */
@@ -435,31 +436,21 @@ h2 {
 
 footer {
     background-color: #9a8c98;
-    color:beige;
+    color: honeydew;
     font-size: 1.5em;
     text-align: center;
     height: 15vh;
     padding-top: 2%;
    }
 
-#footer-logo {
-    color: honeydew;
-   }
-
-#footer-logo:hover {
-       color: rgb(92, 40, 40);
-       text-decoration: none;
-   }
-
 .social-links {
     font-size: 1.5em;  
     text-align: center;
-    list-style: none;
     margin-top: 0.5em;
 }
 
 .social-links li a i {
-    color: beige;
+    color: honeydew;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -469,11 +460,12 @@ footer {
 .social-links li {
     display: inline;
     padding: 1em;
-
 }
 
 .social-links li a i:hover {
-    color:rgb(92, 40, 40);
+    color: #6f1a07;
+    background: transparent;
+
 }
 
 #coder {
@@ -481,14 +473,13 @@ footer {
 }
 
 #coder:hover {
-    color: rgb(92, 40, 40);
+    color:#6f1a07;
+    background: none;
 }
 
 .fa-heart {
     color: red;
 }
-
-
 
 /* --------------------- media query */
 
