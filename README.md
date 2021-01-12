@@ -66,7 +66,8 @@ As a user and a woman with high living standards, my goal is to live a substaina
 
 #### 3.1 Colours
 
-![pallate 1](assets/images/ms1-color-pallate.png)
+![pallette 1](assets/images/ms1-color-pallette1.png)
+![pallette 2](assets/images/ms1-color-pallette2.png)
 
 The above color pallate will be the main color theme throughout the page. 
 

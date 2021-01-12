@@ -72,6 +72,7 @@ a.active,a:hover {
     background:#f2e9e4;
     transition: .5s;
     text-decoration: none;
+    color: #e5989b;
 }
 
 .checkbtn{
@@ -181,6 +182,16 @@ a.active,a:hover {
     height: 70vh;
     width: 100vw;
 }
+.about h3 {
+    padding-top: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;  
+}
+.about hr {
+    width: 30%;
+}
 
 .about img {
     height: 35vh;
@@ -204,10 +215,10 @@ a.active,a:hover {
  .about p {
     color: #6d6875;
     font-weight: bold;
-    padding: 3em;
+    padding: 0 2em;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    line-height: 2.5em;
-    font-size: 1.5em;
+    line-height: 2;
+    font-size: 2em;
 }
 
 #about-us {
@@ -229,6 +240,8 @@ a.active,a:hover {
     justify-content: center;
     align-items: center;
     height: 30vh;
+    padding: 10%;
+    line-height: 2;
 }
 .divider p {
     color: #6d6875;
