@@ -117,29 +117,38 @@ As the course progress, I would love to add additional features to this page, fo
 
 #### 5.2 Frameworks, Libraries and Programs Used
 
-* Bootstrap4 - helped created a responsive navbar and some sections structures throughtout the page.
-* Gitpod - README, git version control and  all code was written in Gitpod using code institute gitpod full template.
-* GitHub - hosting service to save the project in a repository.
-* Balsamiq - wireframes.
+* [Bootstrap4](https://getbootstrap.com/) - helped created a responsive navbar and some sections structures throughtout the page.
+* [Gitpod](https://gitpod.io/) - README, git version control and  all code was written in Gitpod using code institute gitpod full template.
+* [GitHub](https://github.com/) - hosting service to save the project in a repository.
+* [Balsamiq](https://balsamiq.com/) - used to draw up the wireframes.
 * [TinyPNG.com](https://tinypng.com/) - used to compress large images.
+* [Google Font](https://fonts.google.com/) - used to import the following fonts Architects+Daughter, Audiowide, Bungee+Outline, Fredericka+the+Great, Shadows+Into+Light, Yanone+Kaffeesatz, Fredericka+the+Great and Yusei+Magic
+* [font awesome](https://fontawesome.com/) - used for footer icons.
+* [coolors.co](https://coolors.co/) - used to color scheme.
+* [Am I responsive?](https://ami.responsivedesign.is) - used to check responsivity of code and display the mock up in the documentation.
+* [W3C Markup Validation Service](https://validator.w3.org/) - used to validate HTML codes.
+* [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/) - used to validate CSS codes.
+* [RGBA and Hex Color Converter](https://cssgenerator.org/rgba-and-hex-color-generator.html) - used to convert hex color to RGBA color.
+* [The Complete Web Developer in 2021: Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) - I started this course last year before I enrolled with Code Institute, some of the codes I used in this project could be an insparation from this course.
+* [freeCodeCamp](https://www.freecodecamp.org/) - used this site to learn coding last year, some coded I used in my project can be an insparation from this site.
+* [Diffchecker](https://www.diffchecker.com/) - used to compare codes.
+* [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools) - used throughout the project to inspect on elements and writing codes.
 
 ## 6. Testing
+* Chrome DevTools - used to see responsive and mobile design previews
+* The website has been tested on Macbook Air, Desktop PC, Huawei P10 mobile phone, Sumsung Galyxy, iphone 5 
 
-#### 6.1 Functiionality Testing
 
-#### 6.2 CSS3 validator
 
-#### 6.3 HTML5 validator
 
-#### 6.4 Usability Testing
+#### 6.1 CSS3 validator
 
-#### 6.5 Compatibility Testing
+#### 6.2 HTML5 validator
 
-#### 6.6 Performance Testing
+#### 6.3 Tested on Developer Tools Lighthouse
 
-##### 6.6.1 Tested on Developer Tools Lighthouse
+#### 6.4 A Lighthouse report in Chrome DevTools
 
-##### 6.6.2 A Lighthouse report in Chrome DevTools
 
 ## 7. Debugging
 
@@ -149,12 +158,27 @@ As the course progress, I would love to add additional features to this page, fo
 
 ## 9. Credits
 
-
 #### 9.1 Content
+
+* I came up with all the contents myself, got the insparations and quotes from [success.com](http://success.com) and [personalexellence.com](http://personalexellence.com).
+* The reponsive navbar codes was taken from youtube channel [CodingNepal](https://www.youtube.com/c/CodingNepal)'s [responsive navbar video](https://www.youtube.com/watch?v=oLgtucwjVII) and changed some of the codes to make it my style.
+* The passions section used CSS grid, the code for its reponsiveness is taken from [Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) course on Udemy.
+* The footer social link codes was taken from Code Institute video [Rosie's Resume](https://www.youtube.com/watch?v=r9QC_imtw9A).
+* Througout the project, I have watched many youtube videos to help me learn specific topics, the youtube channels that inspired me are: [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw),[DevEd](https://www.youtube.com/c/DevEd), and [Traversy Media](https://www.youtube.com/c/TraversyMedia).
 
 #### 9.2 Media
 
+* all photos was downloaded from the follow website:
+    [unsplash](https://unsplash.com/)
+    [pexels](https://www.pexels.com/)
+    [pixabay](https://pixabay.com/)
+    [icons8](https://icons8.com/)
+
 #### 9.3 Acknowledgements
+
+* I would like to thank my mentor Allen Thomas Varghese for the useful tip, recommendations and support.
+* I would like to thank the tutor support team for the rapid respond each time when I submit a question.
+* I would like to thank everyone who help me in the Slack community for their kindness and generosity.
 
 
 
