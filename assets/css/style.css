@@ -579,6 +579,9 @@ footer {
         overflow: scroll;
         background-color:#f2e9e4; 
     }
+    .divider p {
+        font-size: 2em;
+    }
     .cover {
         display: block;
         height: 120vh;

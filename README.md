@@ -106,7 +106,8 @@ The footer has been divided into three sections, which is contact link, social i
 
 #### 4.2 Features Left to Implement
 
-As the course progress, I would love to add additional features to this page, for example, adding intereting acticles and links into each passions, subscribe users onto email list. so whenever there's an update on the page or new articles, they will be notified. All the backend features will be Implemented by the time I finished this course, such as users' information etc.
+* As the course progress, I would love to add additional features to this page, for example, adding intereting acticles and links into each passions, subscribe users onto email list. so whenever there's an update on the page or new articles, they will be notified. All the backend features will be Implemented by the time I finished this course, such as users' information etc.
+* I would love to add a function that when the user hover on the quotes in the passions section a button with "read more" shows up and when clicked, it lead them to different pages such as Tony Robbins, Dr. Joe Dispenza as I would love to share the information and knowledge I have learned and inspired me so far.
 
 ## 5. Technologies Used
 
@@ -134,21 +135,54 @@ As the course progress, I would love to add additional features to this page, fo
 * [Diffchecker](https://www.diffchecker.com/) - used to compare codes.
 * [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools) - used throughout the project to inspect on elements and writing codes.
 
+
+
 ## 6. Testing
-* Chrome DevTools - used to see responsive and mobile design previews
-* The website has been tested on Macbook Air, Desktop PC, Huawei P10 mobile phone, Sumsung Galyxy, iphone 5 
 
 
+* Testing tools 
+
+    * Macbook Air used for large screen testing.
+    * Huawei T1-821 tablet used for medium size screen testing.
+    * Huawei P10 and Sumsumg galexy 5 used to small screen testing.
 
 
+* Chrome DevTools - used to see responsive and mobile design previews, applying and optimising CSS rules and targeting HTML elements and their behaviour.
+
+* Asked family and friends to check the page on their computers and mobile phones.
+
+* Functionality testing - 
+
+    * tested all the navbar links, made sure it connects to relevant sections.
+    * tested on the collapes button when screen size reduces, when clicked, it opens up a slide menu of navigatiion options. when clicked it also brings the user to its relevant section.
+    * tested the logo link is working, when clicked, it refreshes the cover page.
+    * tested the "start now" button is linked to the contact section, when clicked, it brings the user to the contact form section.
+    * tested all the social links are linked to the relevant social media page.
+    * tested the developer's name is linked to her github page.
+
+* Responsiveness testing - 
+
+    * tested on Chrome Devtools by dragging the page edge and reducing the viewport size, scrolling to each sections to see any issues.
+    * tested on Chrome Devtools by click on the mobile icon to check how the page looks on different divices. 
+    
+* Testing User Stories 
+
+    The following examinations was carried out to address user needs:
+
+    * Users are looking for navigating around the page easily - there is a navigation system been set up and easy to follow, so that the user will know how to use it straight away after opening the website. i.e. the navbar layout, position and visual aspect. The navbar is fixed to the top of the page, so even when the user scroll to the bottom of the page, they can easily get back to any section if they would like to.
+    * Users are looking for a page with a clear layout set up that is not too busy or too much going on - the entire page is clearly laid out into different sections, with the most important content at the very top, i.e. the cover section, about section, divider section with quotes, passions section, divider section with quote and lastly the contact section.
+    * Users want to have a basic idea what page is about as soon as they opening up the page - the user will grasp the main concept of the page as soon as they opening up the page, i.e. the quote on cover section with the animation effect grabs the users attention immediately.
+    * Users would like to know a bit better about what the page is about as they scrolling furter down the page - the user gets a better idea of what this page is about, by scrolling down to the next section which is the about section. A short paragraph explains futher what this page is all about.
+    * Users want to know what area or topics the group is going to focus on and what can they learn from it - The passions section further develops on what topic and areas the group is focusing on. That also gives the user a rough idea about what kind of people they'd expect to meet if they are interested in joining in.
+    * Users would like to know if there's any activities happening within the group to get socialable, if they can make friends and go on to a learning journey together - the activities section shows the user that there are events going on in the group that they can join, if that's something they would interested in. The options is there.
+    * Users are expecting to see contact information if they are interested, that is easy to fill in - the contact section gives the user exactly what they need, there is a form with only three input of basic personal infomation, they can get connected to like-minded people and grow together instantly!
+    * Users would generally expect social links within the page, so that they can connect that way if they want to - in the footer section the social media links are avaiable. 
+    
 #### 6.1 CSS3 validator
 
 #### 6.2 HTML5 validator
 
-#### 6.3 Tested on Developer Tools Lighthouse
-
-#### 6.4 A Lighthouse report in Chrome DevTools
-
+#### 6.3 A Lighthouse report in Chrome DevTools
 
 ## 7. Debugging
 
@@ -176,9 +210,13 @@ As the course progress, I would love to add additional features to this page, fo
 
 #### 9.3 Acknowledgements
 
-* I would like to thank my mentor Allen Thomas Varghese for the useful tip, recommendations and support.
-* I would like to thank the tutor support team for the rapid respond each time when I submit a question.
-* I would like to thank everyone who help me in the Slack community for their kindness and generosity.
+I would like to thank:
+
+*  my mentor Allen Thomas Varghese for the useful tip, recommendations and support.
+*  the tutor support team for the rapid respond each time when I submit a question.
+*  everyone who help me in the Slack community for their kindness and generosity.
+
+And if anyone have any questions regarding to this project you can reach me on melinda_hongye@yahoo.com.
 
 
 
