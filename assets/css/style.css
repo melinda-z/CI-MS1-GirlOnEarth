@@ -474,10 +474,9 @@ footer {
 .social-links li a i:hover {
     background-color: #6f1a07;
 }
-.social-links li i:hover {
-    background: none;
+.social-link a:hover {
+    background: transparent;
 }
-
 #coder {
     color: honeydew;
 }
