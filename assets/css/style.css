@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Bungee+Outline&family=Fredericka+the+Great&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&family=Yusei+Magic&family=Fredericka+the+Great&display=swap');
 
-/* ---------------------- header */
-
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +7,12 @@
     list-style: none;
     box-sizing: border-box;
 }
+.headbutt span { 
+  margin-top: -20vh;        
+  padding-bottom: 20vh; 
+}
+
+/* ---------------------- header */
 
 nav {
     background:#f8f9fa;
@@ -104,15 +108,6 @@ a.active,a:hover {
     width: 70vw;
     height: 85vh;
     margin-top: 15vh;
-    animation: cover-animation 4s ease-in  1 alternate forwards;
-}
-@keyframes cover-animation {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
 }
 
 .cover p {
@@ -154,7 +149,7 @@ a.active,a:hover {
     opacity: 0;
     animation-name: animation-btn;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     transition-property: transform;
     transition-duration: 1s;
@@ -304,7 +299,7 @@ a.active,a:hover {
 
 /* ------------------- activities */
 
-#activities {
+#activities-section {
     background-image: url(../images/bg-activities.jpg);
     background-size: cover;
     background-position: center;

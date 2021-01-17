@@ -90,7 +90,7 @@ The site is a one-page site divided by five sections, including *home*, *about*,
 #### Navbar
 The responsive navbar has been achieved by implementing Bootstrap 4, it collapes into a button when the screen is smaller than 990px. It contains links to all sections, and the logo of the page. The logo is also used as a homepage link.
 #### Homepage
-The homepage contains a main image, a title quote and a button. I used CSS animation to make the quote slide from left to right as soon as the page loads, then the button "start now" appears 5 seconds later. The aim here is to grab users' attention to make the site appealing.
+The homepage contains a main image, a title quote and a button. I used CSS animation to make the quote slide from left to right as soon as the page loads, then the button "start now" appears 3 seconds later. The aim here is to grab users' attention to make the site appealing.
 #### About
 The about section contains two images and the a paragraph describing what the page is all about, so the users can have a clear view of what they can get from using the page. The section's visual effect is achieved by using CSS position and overflow.
 #### Passions 
