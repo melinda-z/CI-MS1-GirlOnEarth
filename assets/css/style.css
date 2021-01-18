@@ -75,7 +75,6 @@ nav ul li a {
 a.active,a:hover {
     background:#f2e9e4;
     transition: .5s;
-    text-decoration: none;
     color: #e5989b;
 }
 
@@ -228,6 +227,7 @@ a.active,a:hover {
     bottom: 0;
     left: 7%;
     overflow: scroll;
+    
 }
 
 /*-------------------- divider */
@@ -441,37 +441,30 @@ footer {
     padding-top: 2%;
    }
 
-.social-links {
+.social-media {
     text-align: center;
     margin-top: 0.5em;
 }
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
+.social-media li {
+    display: inline;
+    padding: 1em;
+}
+.social-links {
     color: honeydew;
-    font-size: 18px;
-    line-height: 1.3;
-    background: #4a4e69;
+    font-size: 1.5em;
     padding: 5px;
-    border-radius: 50%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li {
-    display: inline;
-    padding: 1em;
+.social-links:hover {
+    color: #6f1a07;
+    background: none;
+    text-decoration: none;
 }
 
-.social-links li a i:hover {
-    background-color: #6f1a07;
-}
-.social-link a:hover {
-    background: transparent;
-}
 #coder {
     color: honeydew;
 }
@@ -493,13 +486,22 @@ footer {
     font-size: 2em;
     padding-left: 12%;
   }
-  nav ul li a {
+    nav ul li a {
     font-size: 1.5em;
   }
     .grid-wrapper {
-        grid-gap: 0;
         padding: 0;
-    }    
+        margin-top: 1%;
+    }  
+    .divider {
+        height: 20vh;
+    }
+    .divider p {
+        font-size: 2.5em;
+    }
+    #divider-2 {
+        margin-top: 5%;
+    }
 }
 
 @media only screen and (max-width: 858px) {
@@ -538,8 +540,9 @@ footer {
         left: 0;
     }
     .divider p {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -552,7 +555,7 @@ footer {
         margin: 0;
         position: relative;
         width: 100vw;
-        height: 50vh;
+        height: 40vh;
     }
     .about p {
         padding: 5%;
@@ -564,32 +567,38 @@ footer {
         position: absolute;
         width: 30vw;
         height: 25vh;
-        left: 5%;
+        left: 0;
         top: 0;
     }
     #img-2 {
         position: absolute;
         width: 30vw;
         height: 25vh;
-        left: 5%;
+        left: 0;
         top: 50%;
     }
     #about-us {
         position: absolute;
-        left: 40vw;
+        left: 30vw;
         top: 0;
-        width: 55vw;
-        height: 50vh;
-        overflow: scroll;
+        width: 70vw;
+        height: 45vh;
         background-color:#f2e9e4; 
+        overflow: scroll;
     }
     .divider p {
         font-size: 2em;
     }
+    #divider-1 {
+        margin-top: 8%;
+    }
+    #divider-2 {
+        height: 25vh;
+        margin-top: 5%;
+    }
     .cover {
         display: block;
-        height: 120vh;
-        
+        height: 122vh;
     }
     .cover img {
         width: 100vw;
@@ -604,6 +613,10 @@ footer {
         width: 100%;
         overflow: auto;
     }
+    #activities-section {
+        width: 100vw;
+        margin-left: 0;
+    }
     .activities h3 {
         font-size: 1.3em;
     }
@@ -616,12 +629,23 @@ footer {
     }
     .form-section img {
         width: 50vw;
+        height: 55vh;
     }
     .contact-form {
         width: 50vw;
         left: 50vw;
+        height: 55vh;
     }
 }
+@media only screen and (max-width: 598px) {
+    .grid-wrapper {
+        grid-gap: 0;
+    }
+    #divider-2 {
+        margin-top: 3%;
+    }
+}
+
 @media only screen and (max-width: 540px) {
     .cover {
         height: 130vh;
@@ -649,11 +673,15 @@ footer {
     .contact-form {
         left: 0;
         width: 100vw;
-        height: 55vh;
+        height: 47.3vh;
     }
     .form-section {
-        height: 55vh;
+        height: 50vh;
     }
+    .divider p {
+        font-size: 1.8em;
+    }
+    
 }
 @media only screen and (max-width: 375px) {
 
@@ -687,7 +715,11 @@ footer {
         height: 60vh;
     }
     .contact-form {
+        padding-top:0;
         height: 60vh;
+    }
+    footer {
+        padding-top: 5%;
     }
 }
 @media only screen and (max-width: 360px) {
@@ -710,15 +742,4 @@ footer {
     .contact-form {
         height: 68vh;
     }
-}
-@media only screen and (max-height: 60vh) {
-    #form-btn {
-        font-size: 1em;
-    }
-    .form-label {
-        font-size: 1em;
-        line-height: 1;
-    }
-
-
 }
