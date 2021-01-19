@@ -8,8 +8,8 @@
     box-sizing: border-box;
 }
 .headbutt span { 
-  margin-top: -20vh;        
-  padding-bottom: 20vh; 
+    margin-top: -20vh;        
+    padding-bottom: 20vh; 
 }
 
 /* ---------------------- header */
@@ -187,7 +187,9 @@ a.active,a:hover {
     text-align: center;  
 }
 .about hr {
-    width: 30%;
+    display: block;
+    margin-left: 39%;
+    width: 20%;
     border: 1px solid #4a4e69;
 }
 
@@ -373,12 +375,10 @@ a.active,a:hover {
 
 hr { 
     display: block;
+    border: 1px solid honeydew;
+    color: honeydew;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 2px;
 } 
 
 h2 {
@@ -397,15 +397,15 @@ h2 {
 }
 
 .users-email {
-    margin-left: 2%;
     width: 96%;
     height: 3em;
+    margin-left: 2%;
+
 }
 
 .users-message {
     width: 96%;
     margin-left: 2%;
-    height: 100px;
 }
 
 #form-btn {
@@ -558,9 +558,8 @@ footer {
         height: 40vh;
     }
     .about p {
-        padding: 5%;
-        width: 60vw;
-        height: 50vh;
+        padding: 2%;
+        width: 65vw;
         font-size: 1.5em;
     }
     #img-1 {
@@ -581,6 +580,7 @@ footer {
         position: absolute;
         left: 30vw;
         top: 0;
+        padding: 1%;
         width: 70vw;
         height: 45vh;
         background-color:#f2e9e4; 
@@ -628,11 +628,12 @@ footer {
         height: 60vh;
     }
     .form-section img {
-        width: 50vw;
+        margin-left: 5vw;
+        width: 45vw;
         height: 55vh;
     }
     .contact-form {
-        width: 50vw;
+        width: 45vw;
         left: 50vw;
         height: 55vh;
     }
@@ -656,6 +657,9 @@ footer {
     .form-label {
         font-size: 1em;
     }
+    #divider-1 {
+        margin-top: 11%;
+    }
 }
 @media only screen and (max-width: 414px) {
     .cover p {
@@ -667,12 +671,15 @@ footer {
     .cover {
         height: 105vh;
     }
+    .activities {
+        margin-left: 0.5%;
+    }
     .form-wrapper img {
         visibility: hidden;
     }
     .contact-form {
-        left: 0;
-        width: 100vw;
+        left: 2.5vw;
+        width: 95vw;
         height: 47.3vh;
     }
     .form-section {
@@ -705,8 +712,8 @@ footer {
     .activities {
         margin: 0.5%;
     }
-    .divider {
-        height: 30vh;
+    #divider-1 {
+        margin-top: 15%;
     }
     .text-input {
         margin-left: 9px;
@@ -716,7 +723,7 @@ footer {
     }
     .contact-form {
         padding-top:0;
-        height: 60vh;
+        height: 58vh;
     }
     footer {
         padding-top: 5%;
@@ -724,22 +731,28 @@ footer {
 }
 @media only screen and (max-width: 360px) {
     .form-section {
-        height: 65vh;
+        height: 60vh;
     }
     .contact-form {
-        height: 65vh;
+        height: 58vh;
     }
 }
 
 @media only screen and (max-width: 320px) {
-    #activities {
-        height: 45vh;
+    #activities-section {
+        height: 30vh;
     }
-
+    .activities h3 {
+        font-size: 0.7em;
+    }
+    .activities h4 {
+        font-size: 0.6em;
+    }
+    
     .form-section {
-        height: 68vh;
+        height: 55vh;
     }
     .contact-form {
-        height: 68vh;
+        height: 52vh;
     }
 }
