@@ -28,7 +28,7 @@
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#about-jump">About</a></li>
-                <li><a href="#passions-section">Passions</a></li>
+                <li><a href="#passions-jump">Passions</a></li>
                 <li><a href="#activities-jump">Activities</a></li>
                 <li><a href="#contact-jump">Contact</a></li>
             </ul>
@@ -41,9 +41,11 @@
         </p>
     </section>
     <section id="about-section" class="about headbutt">
-        <span id="about-jump">&nbsp;</span>
-        <img id="img-1" src="assets/images/about-image-1.jpg" alt="girl-group">
-        <img id="img-2" src="assets/images/about-image-2.jpg" alt="girl-group">
+            <span id="about-jump"></span>
+        <div class="about-img">
+            <img id="img-1" src="assets/images/about-image-1.jpg" alt="girl-group">
+            <img id="img-2" src="assets/images/about-image-2.jpg" alt="girl-group">
+        </div>
         <div id="about-us">
             <h3>About</h3>
             <hr>
@@ -59,50 +61,56 @@
     <section class="divider" id="divider-1">
         <p>“The only person you are destined to become is the person you decide to be.” ―Ralph Waldo Emerson</p>
     </section>
-    <section id="passions-section" class="passions grid-wrapper headbutt">
-        <div class="box" id="self-development">
-            <img src="assets/images/self-development.jpg" alt="books">
-            <div class="quote-wrapper">
-                <h3>Self-development</h3>
-                <p class="quotes">Self-development - the never ending chance to improve not only yourself, but also to
-                    attract opportunities and affect others.</p>
+    <section id="passions-section" class="headbutt">
+        <span id="passions-jump">&nbsp;</span>
+        <div class="passions grid-wrapper">
+            <div class="box" id="self-development">
+                <img src="assets/images/self-development.jpg" alt="books">
+                <div class="quote-wrapper">
+                    <h3>Self-development</h3>
+                    <p class="quotes">Self-development - the never ending chance to improve not only yourself, but also
+                        to
+                        attract opportunities and affect others.</p>
+                </div>
             </div>
-        </div>
-        <div class="box" id="health-wellbeing">
-            <img src="assets/images/health-wellbeing.jpg" alt="healthy-food">
-            <div class="quote-wrapper">
-                <h3>Health and Wellness</h3>
-                <p class="quotes">Health is a state of body. Wellness is a state of being!</p>
+            <div class="box" id="health-wellbeing">
+                <img src="assets/images/health-wellbeing.jpg" alt="healthy-food">
+                <div class="quote-wrapper">
+                    <h3>Health and Wellness</h3>
+                    <p class="quotes">Health is a state of body. Wellness is a state of being!</p>
+                </div>
             </div>
-        </div>
-        <div class="box" id="beauty">
-            <img src="assets/images/beauty.jpg" alt="beautiful-girl">
-            <div class="quote-wrapper">
-                <h3>Beauty</h3>
-                <p class="quotes">Beauty begins the moment you decide to be yourself, that or a kick-ass red lipstick!
-                </p>
+            <div class="box" id="beauty">
+                <img src="assets/images/beauty.jpg" alt="beautiful-girl">
+                <div class="quote-wrapper">
+                    <h3>Beauty</h3>
+                    <p class="quotes">Beauty begins the moment you decide to be yourself, that or a kick-ass red
+                        lipstick!
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="box" id="fashion">
-            <img src="assets/images/fashion.jpg" alt="girl-model">
-            <div class="quote-wrapper">
-                <h3>Fashion</h3>
-                <p class="quotes">Fashion is what you buy. Style is what you do with it!</p>
+            <div class="box" id="fashion">
+                <img src="assets/images/fashion.jpg" alt="girl-model">
+                <div class="quote-wrapper">
+                    <h3>Fashion</h3>
+                    <p class="quotes">Fashion is what you buy. Style is what you do with it!</p>
+                </div>
             </div>
-        </div>
-        <div class="box" id="relationship">
-            <img src="assets/images/relationship.jpg" alt="couple">
-            <div class="quote-wrapper">
-                <h3>Relationship</h3>
-                <p class="quotes">Relationship is a two-way street constantly under construction.</p>
+            <div class="box" id="relationship">
+                <img src="assets/images/relationship.jpg" alt="couple">
+                <div class="quote-wrapper">
+                    <h3>Relationship</h3>
+                    <p class="quotes">Relationship is a two-way street constantly under construction.</p>
+                </div>
             </div>
-        </div>
-        <div class="box" id="parenting">
-            <img src="assets/images/parenting.jpg" alt="mother-child">
-            <div class="quote-wrapper">
-                <h3>Parenting</h3>
-                <p class="quotes">Parenting happens when you start controlling yourself and stop controlling your child.
-                </p>
+            <div class="box" id="parenting">
+                <img src="assets/images/parenting.jpg" alt="mother-child">
+                <div class="quote-wrapper">
+                    <h3>Parenting</h3>
+                    <p class="quotes">Parenting happens when you start controlling yourself and stop controlling your
+                        child.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -150,30 +158,34 @@
             <form class="contact-form" method="get" action="#">
                 <h2>Let's Grow Together!</h2>
                 <hr />
-                <div class="row">
-                    <div class="col">
-                        <label class="form-label name">First Name</label>
-                        <input type="text" class="form-control users-name" placeholder="First name"
-                            aria-label="First name" required/>
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-6">
+                            <label class="form-label name">First Name</label>
+                            <input type="text" class="form-control users-name" placeholder="First name"
+                                aria-label="First name" required />
+                        </div>
+                        <div class="col col-6">
+                            <label class="form-label name">Last Name</label>
+                            <input type="text" class="form-control  users-name" placeholder="Last name"
+                                aria-label="Last name" required />
+                        </div>
+
+                        <div class="mb-3 col-12">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control users-email" id="exampleFormControlInput1"
+                                placeholder="name@example.com" required />
+                        </div>
+                        <div class="mb-3 col-12">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                            <textarea class="form-control users-message" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                        </div>
                     </div>
-                    <div class="col">
-                        <label class="form-label name">Last Name</label>
-                        <input type="text" class="form-control  users-name" placeholder="Last name"
-                            aria-label="Last name" required/>
-                    </div>
+                    <button id="form-btn" type="submit" class="btn btn-secondary btn-lg">
+                        Submit
+                    </button>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control users-email" id="exampleFormControlInput1"
-                        placeholder="name@example.com" required/>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                    <textarea class="form-control users-message" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button id="form-btn" type="submit" class="btn btn-secondary btn-lg">
-                    Submit
-                </button>
             </form>
         </div>
     </section>
@@ -226,4 +238,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>

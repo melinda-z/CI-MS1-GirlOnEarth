@@ -7,9 +7,15 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 .headbutt span { 
     margin-top: -20vh;        
     padding-bottom: 20vh; 
+    display: block;
+}
+#about-jump {
+    background-color: #f8f9fa;;
+    border: 1px solid red;
 }
 
 /* ---------------------- header */
@@ -76,6 +82,7 @@ a.active,a:hover {
     background:#f2e9e4;
     transition: .5s;
     color: #e5989b;
+    text-decoration: none;
 }
 
 .checkbtn{
@@ -164,10 +171,11 @@ a.active,a:hover {
 
 .button:hover {
     transform: rotateY(360deg);
-    background-color: #b5838d;
+    background-color: #b5838d; 
 }
 .button a:hover {
     background: none;
+    text-decoration: none;
 }
 
 /*-------------------- about */
@@ -284,13 +292,14 @@ a.active,a:hover {
     width: 100%;
     border-radius: 5px 5px 0 0;
 }
+
 .quote-wrapper {
     background-color: #f2e9e4;
     border: 1px solid #9a8c98;
     border-top: none;
     border-radius: 0 0 5px 5px;
     height: 15vh;
-    transition: all 1.5s;
+    transition: all 1s;
     cursor: pointer;
 }
 
@@ -314,7 +323,7 @@ a.active,a:hover {
 
 .activities {
     background-color: RGBA(74,78,105,0.4);
-    margin-left: 2%;
+    margin-left: 1.8%;
     text-align: center;    
 }
 
@@ -347,9 +356,9 @@ a.active,a:hover {
 }
 
 .form-wrapper {
-    width: 80vw;
-    height: 60vh;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;  
 }
 
 .form-section img {
@@ -445,10 +454,12 @@ footer {
     text-align: center;
     margin-top: 0.5em;
 }
+
 .social-media li {
     display: inline;
     padding: 1em;
 }
+
 .social-links {
     color: honeydew;
     font-size: 1.5em;
