@@ -6,22 +6,30 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    overflow-x: none;
+    /* border: 1px solid red; */
+}
+body {
+    background-color: #f2e9e4;
 }
 
 .headbutt span { 
     margin-top: -20vh;        
     padding-bottom: 20vh; 
     display: block;
+    z-index: -1;
+
 }
-#about-jump {
-    background-color: #f8f9fa;;
-    border: 1px solid red;
+#about-jump, #passions-jump,#contact-jump {
+    margin-top: -22vh;
+    background: transparent;
+    z-index: 1;
 }
 
 /* ---------------------- header */
 
 nav {
-    background:#f8f9fa;
+    background:#f0efeb;
     height: 15vh;
     width: 100%;
     border-bottom: 1px solid gray;
@@ -78,10 +86,10 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a.active,a:hover {
-    background:#f2e9e4;
+.nav-items.active,.nav-items:hover {
+    background: #9a8c98;
     transition: .5s;
-    color: #e5989b;
+    color: honeydew;
     text-decoration: none;
 }
 
@@ -171,7 +179,7 @@ a.active,a:hover {
 
 .button:hover {
     transform: rotateY(360deg);
-    background-color: #b5838d; 
+    background-color: #9a8c98; 
 }
 .button a:hover {
     background: none;
@@ -202,23 +210,23 @@ a.active,a:hover {
 }
 
 .about img {
-    height: 35vh;
-    width: 30vw;
+    height: 70vh;
+    width: 50vw;
 }
 
 #img-1 {
     position: absolute;
-    right: 7%;
-    top: 10%;
+    right: 0;
+    top: 0;
     z-index: 1;
 }
 
-#img-2 {
+/* #img-2 {
     position: absolute;
-    right: 33%;
-    top: 38%;
+    right: 20%;
+    top: 50%;
     z-index: 1;
-}
+} */
 
  .about p {
     color: #6d6875;
@@ -230,20 +238,18 @@ a.active,a:hover {
 }
 
 #about-us {
-    width: 30vw;
+    width: 50vw;
     height: 70vh;
     background-color: #f2e9e4;
     position: absolute;
     bottom: 0;
-    left: 7%;
-    overflow: scroll;
-    
+    left: 0;    
 }
 
 /*-------------------- divider */
 
 .divider {
-    background-color: #f2e9e4;
+    background-color:#dad7cd;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -261,12 +267,14 @@ a.active,a:hover {
 
 /*-------------------- passions */
 
+
 .passions img {
     width: 300px;
     height: 300px;
 }
 
 .grid-wrapper {
+    background-color: #f2e9e4;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1%;
@@ -294,7 +302,7 @@ a.active,a:hover {
 }
 
 .quote-wrapper {
-    background-color: #f2e9e4;
+    background-color: #f0efeb;
     border: 1px solid #9a8c98;
     border-top: none;
     border-radius: 0 0 5px 5px;
@@ -316,7 +324,7 @@ a.active,a:hover {
     background-position: center;
     background-repeat: no-repeat;
     width: 80vw;
-    height: 40vh;
+    height: 60vh;
     margin-left: 10%;
     display: flex;
 }
@@ -325,6 +333,7 @@ a.active,a:hover {
     background-color: RGBA(74,78,105,0.4);
     margin-left: 1.8%;
     text-align: center;    
+    padding-top: 7%;
 }
 
 .activities img {
@@ -350,7 +359,7 @@ a.active,a:hover {
 .form-section {
     width: 100vw;
     height: 80vh;
-    background-color: #f2e9e4;
+    background-color: #dad7cd;
     padding-left: 10%;
     padding-top: 6%;
 }
@@ -576,17 +585,11 @@ footer {
     #img-1 {
         position: absolute;
         width: 30vw;
-        height: 25vh;
+        height: 46vh;
         left: 0;
         top: 0;
     }
-    #img-2 {
-        position: absolute;
-        width: 30vw;
-        height: 25vh;
-        left: 0;
-        top: 50%;
-    }
+    
     #about-us {
         position: absolute;
         left: 30vw;
@@ -595,7 +598,6 @@ footer {
         width: 70vw;
         height: 45vh;
         background-color:#f2e9e4; 
-        overflow: scroll;
     }
     .divider p {
         font-size: 2em;
@@ -622,10 +624,11 @@ footer {
     #activities {
         margin: 0;
         width: 100%;
-        overflow: auto;
+        height: 40vh;
     }
     #activities-section {
         width: 100vw;
+        height: 40vh;
         margin-left: 0;
     }
     .activities h3 {
