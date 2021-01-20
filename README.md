@@ -68,6 +68,7 @@ As a user and a woman with high living standards, my goal is to live a substaina
 
 ![pallette 1](assets/images/ms1-color-pallette1.png)
 ![pallette 2](assets/images/ms1-color-pallette2.png)
+![pallette 3](assets/images/ms1-color-pallette3.png)
 
 The above color pallate will be the main color theme throughout the page. 
 
@@ -133,6 +134,7 @@ The footer has been divided into two sections, which is social icons links and c
 * [The Complete Web Developer in 2021: Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) - I started this course last year before I enrolled with Code Institute, one of the codes I used in this project was from this course.
 * [freeCodeCamp](https://www.freecodecamp.org/) - used this site to learn coding last year, and I used it for reference.
 * [Diffchecker](https://www.diffchecker.com/) - used to compare codes.
+* [Autoprefixer](https://autoprefixer.github.io/) - used to add autoprefixer for improving browser compatibility.
 * [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools) - used throughout the project to inspect on elements and writing codes.
 
 
@@ -178,9 +180,11 @@ The footer has been divided into two sections, which is social icons links and c
     * Users are expecting to see contact information if they are interested, that is easy to fill in - the contact section gives the user exactly what they need. There is a form with only three inputs of basic personal infomation where they can get connected to like-minded people and grow together instantly!
     * Users would generally expect social links within the page, so that they can connect that way if they want to - in the footer section the social media links are avaiable. 
     
-#### 6.1 CSS3 validator
+#### 6.1 HTML5 validator
+![HTML Validator service](assets/ref-images/html-validator.png)
+The above errors has been found through HTML validator service and they have been corrected.
 
-#### 6.2 HTML5 validator
+#### 6.1 CSS3 validator
 
 #### 6.3 A Lighthouse report in Chrome DevTools
 
@@ -189,6 +193,19 @@ The footer has been divided into two sections, which is social icons links and c
 
 ## 8. Deployment
 
+**Deployment via GitHub Pages**
+
+1. Select the Repository you wish to deploy.
+2. Under the "Repo" name on the top left of the screen there is a menu, select the settings tab on this menu.
+   ![see photo](assets/ref-images/deploy-image-1.png)
+3. Scroll down to the GitHub Pages section.
+4. Under Source use the None or Branch drop down menu to select the publishing source you wish to use.
+    Master is recommened. 
+    ![see photo](assets/ref-images/deploy-image-2.png)
+    ![see photo](assets/ref-images/deploy-image-3.png)
+5. Select Save and refresh the page.
+6. Your published address will appear in a green highlighted container above Source.
+7. Click the link to test it works.
 
 ## 9. Credits
 

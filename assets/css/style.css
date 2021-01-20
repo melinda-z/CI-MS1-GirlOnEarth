@@ -38,8 +38,10 @@ nav {
     position: absolute;
     left: 1%;
     top: 1%;
+    -webkit-filter: invert(70%);
     filter: invert(70%);
     /* changed original image color */
+    -webkit-animation: earth-rotate 1s ease-in-out infinite alternate;
     animation: earth-rotate 1s ease-in-out infinite alternate;
 }
 
@@ -50,6 +52,7 @@ nav {
 }
 
 #nav-img:hover {
+     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
 
@@ -130,6 +133,7 @@ nav ul li a {
     text-align: center;
     margin-top: 15vh;
     position: relative;
+    -webkit-animation: headline-animation 3s forwards;
     animation: headline-animation 3s forwards;
 }
 @keyframes headline-animation {
@@ -156,12 +160,22 @@ nav ul li a {
     border-radius: 30px;
     position: relative;
     opacity: 0;
-    animation-name: animation-btn;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: animation-btn;
+            animation-name: animation-btn;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
-    transition-duration: 1s;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s;
 }
 @keyframes animation-btn {
     0% { 
@@ -295,6 +309,8 @@ nav ul li a {
     border-top: none;
     border-radius: 0 0 5px 5px;
     height: 15vh;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
     cursor: pointer;
 }
@@ -328,6 +344,7 @@ nav ul li a {
     margin: 25%;
     width: 5vw;
     height: 6vh;
+    -webkit-filter: invert(100%);
     filter: invert(100%); 
     /* change image color */
 }
