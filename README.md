@@ -181,11 +181,12 @@ The footer has been divided into two sections, which is social icons links and c
     * Users would generally expect social links within the page, so that they can connect that way if they want to - in the footer section the social media links are avaiable. 
     
 #### 6.1 HTML5 validator
-![HTML Validator service](assets/ref-images/html-validator.png)
+![HTML Validator Service](assets/ref-images/html-validator.png)
 The above errors has been found through HTML validator service and they have been corrected.
 
 #### 6.1 CSS3 validator
-
+![CSS Validator Service](assets/ref-images/css-validator.png)
+The above error was found through CSS validator service and I have managed to fix number 4.
 #### 6.3 A Lighthouse report in Chrome DevTools
 
 ## 7. Debugging
