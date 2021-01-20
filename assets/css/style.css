@@ -6,24 +6,20 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    overflow-x: none;
-    /* border: 1px solid red; */
+    overflow-x: hidden;
 }
 body {
     background-color: #f2e9e4;
 }
+/* solve problem of navlink only show half of each section */
 
 .headbutt span { 
     margin-top: -20vh;        
     padding-bottom: 20vh; 
     display: block;
-    z-index: -1;
-
 }
-#about-jump, #passions-jump,#contact-jump {
+#about-jump, #passions-jump,#activities-jump,#contact-jump {
     margin-top: -22vh;
-    background: transparent;
-    z-index: 1;
 }
 
 /* ---------------------- header */
@@ -43,6 +39,7 @@ nav {
     left: 1%;
     top: 1%;
     filter: invert(70%);
+    /* changed original image color */
     animation: earth-rotate 1s ease-in-out infinite alternate;
 }
 
@@ -133,9 +130,7 @@ nav ul li a {
     text-align: center;
     margin-top: 15vh;
     position: relative;
-    animation-name: headline-animation;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation: headline-animation 3s forwards;
 }
 @keyframes headline-animation {
     0% { 
@@ -221,13 +216,6 @@ nav ul li a {
     z-index: 1;
 }
 
-/* #img-2 {
-    position: absolute;
-    right: 20%;
-    top: 50%;
-    z-index: 1;
-} */
-
  .about p {
     color: #6d6875;
     font-weight: bold;
@@ -254,9 +242,9 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     padding: 10%;
     line-height: 2;
+    overflow: hidden;
 }
 .divider p {
     color: #6d6875;
@@ -340,7 +328,8 @@ nav ul li a {
     margin: 25%;
     width: 5vw;
     height: 6vh;
-    filter: invert(100%);
+    filter: invert(100%); 
+    /* change image color */
 }
 
 .activities h3 {
@@ -637,6 +626,12 @@ footer {
     .activities h4 {
         font-size: 0.9em;
     }
+    #contact-jump {
+        margin-top: 0;
+    }
+    .form-wrapper {
+        margin-top: -20vh;
+    }
     .form-section {
         padding: 0;
         height: 60vh;
@@ -674,6 +669,24 @@ footer {
     #divider-1 {
         margin-top: 11%;
     }
+    img#img-1 {
+        display: none;
+    }
+    #about-us {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1%;
+    width: 100vw;
+    height: 45vh;
+    background-color: #f2e9e4;
+    }
+    .about p {
+    padding: 2%;
+    width: 100vw;
+    font-size: 1.5em;
+    }
+
 }
 @media only screen and (max-width: 414px) {
     .cover p {
@@ -722,6 +735,13 @@ footer {
     }
     .cover p {
         font-size: 2em;
+    }
+    .about h3 {
+        padding-top: 1em;
+        font-size: medium;
+    }
+    .about p {
+        padding-top: 0;
     }
     .activities {
         margin: 0.5%;
