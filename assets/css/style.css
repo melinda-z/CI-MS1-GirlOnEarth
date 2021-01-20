@@ -481,6 +481,7 @@ footer {
 #coder:hover {
     color:#6f1a07;
     background: none;
+    text-decoration: none;
 }
 
 .fa-heart {
@@ -586,7 +587,6 @@ footer {
         padding: 1%;
         width: 70vw;
         height: 45vh;
-        background-color:#f2e9e4; 
     }
     .divider p {
         font-size: 2em;
@@ -673,18 +673,17 @@ footer {
         display: none;
     }
     #about-us {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 1%;
-    width: 100vw;
-    height: 45vh;
-    background-color: #f2e9e4;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 1%;
+        width: 100vw;
+        height: 45vh;
     }
     .about p {
-    padding: 2%;
-    width: 100vw;
-    font-size: 1.5em;
+        padding: 2%;
+        width: 100vw;
+        font-size: 1.5em;
     }
 
 }
