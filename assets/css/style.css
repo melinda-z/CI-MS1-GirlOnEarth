@@ -795,6 +795,15 @@ footer {
     .divider p {
         font-size: 1.5em;
     }
+    .activities h3 {
+        font-size: small;
+    }
+    .activities h4 {
+        font-size: smaller;
+    }
+    .contact-form {
+        height: 55vh;
+    }
 }
 
 @media only screen and (max-width: 320px) {
