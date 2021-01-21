@@ -789,6 +789,12 @@ footer {
     .contact-form {
         height: 58vh;
     }
+    .about p {
+        font-size: 1.3em;
+    }
+    .divider p {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-width: 320px) {

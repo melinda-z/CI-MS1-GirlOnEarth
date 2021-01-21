@@ -66,9 +66,9 @@ As a user and a woman with high living standards, my goal is to live a substaina
 
 #### 3.1 Colours
 
-![pallette 1](assets/images/ms1-color-pallette1.png)
-![pallette 2](assets/images/ms1-color-pallette2.png)
-![pallette 3](assets/images/ms1-color-pallette3.png)
+![pallette 1](assets/ref-images/ms1-color-pallette1.png)
+![pallette 2](assets/ref-images/ms1-color-pallette2.png)
+![pallette 3](assets/ref-images/ms1-color-pallette3.png)
 
 The above color pallate will be the main color theme throughout the page. 
 
@@ -152,6 +152,7 @@ The footer has been divided into two sections, which is social icons links and c
 * Chrome DevTools - used to see responsive and mobile design previews, applying and optimising CSS rules and targeting HTML elements and their behaviour.
 
 * Asked family and friends to check the page on their computers and mobile phones.
+* Tested on Google Chrome, Firefox, Internet Explorer, and Safari web browser.
 
 * Functionality testing - 
 
