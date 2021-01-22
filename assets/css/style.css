@@ -129,6 +129,7 @@ nav ul li a {
     text-transform: capitalize;
     line-height: 2;
     color: black;
+    font-weight: bolder;
     text-align: center;
     margin-top: 15vh;
     position: relative;
@@ -301,6 +302,7 @@ nav ul li a {
 .box img {
     width: 100%;
     border-radius: 5px 5px 0 0;
+    height: auto;
 }
 
 .quote-wrapper {
@@ -338,6 +340,7 @@ nav ul li a {
     margin-left: 2.1%;
     text-align: center;    
     padding-top: 7%;
+    height: auto;
 }
 
 .activities img {
@@ -717,6 +720,12 @@ footer {
     .cover {
         height: 105vh;
     }
+    .about p {
+        padding-top: 0;
+    }
+    .about h3 {
+        padding-top: 18px;
+    }
     .activities {
         margin-left: 0.5%;
     }
@@ -765,8 +774,11 @@ footer {
     .activities {
         margin: 0.5%;
     }
-    #divider-1 {
-        margin-top: 15%;
+    #divider-1 p {
+        padding-top: 20px;
+    }
+    #divider-2 p {
+        padding-top: 20px;
     }
     .text-input {
         margin-left: 9px;
@@ -776,13 +788,16 @@ footer {
     }
     .contact-form {
         padding-top:0;
-        height: 58vh;
+        height: 55vh;
     }
     footer {
         padding-top: 5%;
     }
 }
 @media only screen and (max-width: 360px) {
+    nav ul {
+        height: 40vh;
+    }
     .form-section {
         height: 60vh;
     }
@@ -807,8 +822,11 @@ footer {
 }
 
 @media only screen and (max-width: 320px) {
+    nav ul {
+        height: 44vh;
+    }
     #activities-section {
-        height: 30vh;
+        height: 32vh;
     }
     .activities h3 {
         font-size: 0.7em;
@@ -816,12 +834,23 @@ footer {
     .activities h4 {
         font-size: 0.6em;
     }
-    
+    .about p {
+        padding-top: 0;
+    }
+    .about hr {
+        margin-bottom: 5px;
+    }
+    .about h3 {
+        padding-top: 15px;
+    }
+    #divider-1 p {
+        padding-top: 15px;
+    }
     .form-section {
-        height: 55vh;
+        height: 65vh;
     }
     .contact-form {
-        height: 52vh;
+        height: 60vh;
     }
 }
 @media only screen and (max-width: 280px) {
