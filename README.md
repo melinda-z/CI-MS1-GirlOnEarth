@@ -13,8 +13,8 @@
 10. [Credits](#credits)
 
 ![Am I responsive](assets/ref-images/Am-I-responsive.png)
-## 1. About
 
+## 1. About
 
 GirlOnEarth. is a website created for a female meet-up group. The purpose of the group is to gather like-minded female individuals sharing the same values and metaphors about life, empowering each other to live their life to the maximum, dream big and trive! 
 
@@ -91,22 +91,22 @@ Please see the wireframes
 #### 4.1 Existing Features
 
 The site is a one-page site divided by five sections, including *home*, *about*, *passions*, *acitivities*, and *contact*. The layout of the page is completed by its responsive navbar, footer and two dividers to ensure a balanced visual effect.
-#### Navbar
-The responsive navbar has been achieved by implementing Bootstrap 4, it collapes into a button when the screen is smaller than 990px. It contains links to all sections, and the logo of the page. The logo is also used as a homepage link.
-#### Homepage
-The homepage contains a main image, a title quote and a button. I used CSS animation to make the quote slide from left to right as soon as the page loads, then the button "start now" appears 3 seconds later. The aim here is to grab users' attention to make the site appealing.
-#### About
-The about section contains two images and the a paragraph describing what the page is all about, so the users can have a clear view of what they can get from using the page. The section's visual effect is achieved by using CSS position and overflow.
-#### Passions 
-This section contains 6 images and a title with a quote, explaining what topics the group is focusing on, to give the user a general idea about the passions that we might have in common. I used CSS grid to make this section completely responsive for all different screen sizes.
-#### Acitivities
-This section gives the user an idea about what acitivities we are going to do together to reach our goals. It contains 3 small sections with an image, time and place each event is happening. 
-#### Contact
-The contact section contains a form which gather's users informaton, including users' first and last names, email address and a text field for them to leave a message. A submit button is also included. Although at the moment, there's no backend attached to the site, but by the time I finish this course, I would be able to implement such a feature.
-#### Dividers
-There are two individual dividers to separate the page into sections. Inside each divider, there's a motivational quote.
-#### Footer
-The footer has been divided into two sections, which is social icons links and copyright. 
+* #### Navbar
+  The responsive navbar has been achieved by implementing Bootstrap 4, it collapes into a button when the screen is smaller than 990px. It contains links to all sections, and the logo of the page. The logo is also used as a homepage link.
+* #### Homepage
+  The homepage contains a main image, a title quote and a button. I used CSS animation to make the quote slide from left to right as soon as the page loads, then the button "start now" appears 3 seconds later. The aim here is to grab users' attention to make the site appealing.
+* #### About
+  The about section contains two images and the a paragraph describing what the page is all about, so the users can have a clear view of what they can get from using the page. The section's visual effect is achieved by using CSS position and overflow.
+* #### Passions 
+  This section contains 6 images and a title with a quote, explaining what topics the group is focusing on, to give the user a general idea about the passions that we might have in common. I used CSS grid to make this section completely responsive for all different screen sizes.
+* #### Acitivities
+  This section gives the user an idea about what acitivities we are going to do together to reach our goals. It contains 3 small sections with an image, time and place each event is happening. 
+* #### Contact
+  The contact section contains a form which gather's users informaton, including users' first and last names, email address and a text field for them to leave a message. A submit button is also included. Although at the moment, there's no backend attached to the site, but by the time I finish this course, I would be able to implement such a feature.
+* #### Dividers
+  There are two individual dividers to separate the page into sections. Inside each divider, there's a motivational quote.
+* #### Footer
+  The footer has been divided into two sections, which is social icons links and copyright. 
 
 #### 4.2 Features Left to Implement
 
@@ -175,7 +175,7 @@ But when I applied it to my own codes, the collapes button didn't work for me ag
 * Responsiveness testing - 
 
     * tested on Chrome Devtools by dragging the page edge and reducing the viewport size, scrolling to each section to see any issues.
-    * tested on Chrome Devtools by click on the mobile icon to check how the page looks on different devices. 
+    * tested on [responsive viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) by Google Chrome browser extensions.
     
 * Testing User Stories 
 
@@ -245,7 +245,7 @@ The above error was found through CSS validator service and I have managed to fi
 * The reponsive navbar codes was taken from youtube channel [CodingNepal](https://www.youtube.com/c/CodingNepal)'s [responsive navbar video](https://www.youtube.com/watch?v=oLgtucwjVII) and changed some of the codes to make it my style.
 * The passions section used CSS grid, the code for its reponsiveness is taken from [Zero to Mastery](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) course on Udemy.
 * The footer social link codes was taken from Code Institute video [Rosie's Resume](https://www.youtube.com/watch?v=r9QC_imtw9A).
-* Througout the project, I have watched many youtube videos to help me learn specific topics, the youtube channels that inspired me are: [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw),[DevEd](https://www.youtube.com/c/DevEd), and [Traversy Media](https://www.youtube.com/c/TraversyMedia).
+* Througout the project, I have watched many youtube videos to help me learn specific topics, the youtube channels that inspired me are: [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw), [DevEd](https://www.youtube.com/c/DevEd), and [Traversy Media](https://www.youtube.com/c/TraversyMedia).
 
 #### 10.2 Media
 
