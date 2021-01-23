@@ -184,14 +184,13 @@ nav ul li a {
     100% {
         opacity: 1;
     }
-}
+} 
 
 .button:hover {
-    transform: rotateY(360deg);
-    background-color: #9a8c98; 
+    background: #9a8c98;
+    text-decoration: none;
 }
 .button a:hover {
-    background: none;
     text-decoration: none;
 }
 
@@ -459,12 +458,12 @@ h2 {
 
 /* --------------------- footer */
 
-footer {
+.footer-section {
     background-color: #9a8c98;
     color: honeydew;
     font-size: 1.5em;
     text-align: center;
-    height: 15vh;
+    min-height: 15vh;
     padding-top: 2%;
    }
 
@@ -492,6 +491,9 @@ footer {
     color: #6f1a07;
     background: none;
     text-decoration: none;
+}
+.copyright {
+    padding-top: 10px;
 }
 
 #coder {
