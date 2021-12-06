@@ -29,7 +29,7 @@ Main requirements
 
 Live project website can be accesed [here](https://melindazhang2020.github.io/CI-MS1-GirlOnEarth/).
 
-Repository for this project can be accesed [here](https://github.com/MelindaZhang2020/CI-MS1-GirlOnEarth.).
+Repository for this project can be accesed [here](https://github.com/MelindaZhang2020/CI-MS1-GirlOnEarth).
 
 
 ## 2. Users Experience (UX)
