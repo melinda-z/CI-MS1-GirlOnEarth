@@ -27,7 +27,7 @@ Main requirements
 * Incorporate a main navigation menu and structured layout.
 * Incorporate a main navigation menu and structured layout and use Git & GitHub for version control.
 
-Live project website can be accesed [here](https://melindazhang2020.github.io/CI-MS1-GirlOnEarth./).
+Live project website can be accesed [here](https://melindazhang2020.github.io/CI-MS1-GirlOnEarth/).
 
 Repository for this project can be accesed [here](https://github.com/MelindaZhang2020/CI-MS1-GirlOnEarth.).
 
